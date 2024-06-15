@@ -6582,19 +6582,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sairam\\.nuget\\packages\\": {}
+    "C:\\Users\\Marwari\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TeamA\\Akshi\\AsianPublisher\\AsianPublisher\\AsianPublisher.csproj",
+      "projectUniqueName": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\AsianPublisher.csproj",
       "projectName": "AsianPublisher",
-      "projectPath": "D:\\TeamA\\Akshi\\AsianPublisher\\AsianPublisher\\AsianPublisher.csproj",
-      "packagesPath": "C:\\Users\\sairam\\.nuget\\packages\\",
-      "outputPath": "D:\\TeamA\\Akshi\\AsianPublisher\\AsianPublisher\\obj\\",
+      "projectPath": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\AsianPublisher.csproj",
+      "packagesPath": "C:\\Users\\Marwari\\.nuget\\packages\\",
+      "outputPath": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sairam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marwari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
