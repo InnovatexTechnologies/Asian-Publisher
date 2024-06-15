@@ -1,0 +1,41 @@
+@model IEnumerable<AsianPublisher.Models.Language>
+
+@{
+    ViewData["Title"] = "Index";
+    string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a href="~/Language/Create?url=@myurl" class="btn btn-success">Create New</a>
+<div>
+<a href = "/Language/GenerateExcel" class="btn btn-primary">DOWNLOAD EXCEL</a>
+<span style = "margin-right: 20px;" ></ span >
+<a href= "/Language/GeneratePdf" class="btn btn-secondary">DOWNLOAD PDF</a>
+</div>
+<br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.name
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id , url = myurl}) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id , url = myurl })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

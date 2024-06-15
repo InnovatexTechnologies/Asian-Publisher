@@ -1,0 +1,86 @@
+@model AsianPublisher.Models.Semester
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Semester</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="id" class="form-control" />
+            <input hidden asp-for="numId" class="form-control" />
+            <input hidden asp-for="idPrefix" class="form-control" />
+            <div class="form-group">
+                <label class="control-label">Name</label>
+                <input name="name" id="name" value="@Model.name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Alias</label>
+                <input name="alias" id="alias" value="@Model.alias" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Academic Year</label>
+                <select name="academicId" id="academicId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.AcademicYears)
+                    {
+                        @if (Model.academicId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Semester Category</label>
+                <select name="semesterCategoryId" id="semesterCategoryId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.SemesterCategories)
+                    {
+                        @if (Model.semesterCategoryId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <input name="url" hidden value="@ViewBag.url" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@ViewBag.url">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#academicId").select2();
+        $("#semesterId").select2();
+    });
+</script>

@@ -1,0 +1,237 @@
+.sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -260px;
+    top: 40%;
+    width: 300px;
+    z-index: 1100;
+  }
+  
+  .sticky li {
+    list-style-type: none;
+    background-color: #fff;
+    color: #efefef;
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    padding-top: 8px;
+  }
+  
+  .sticky li img {
+    float: left;
+    margin: 5px 4px;
+    margin-right: 5px;
+  }
+  
+  .sticky li p {
+    padding-top: 5px;
+    margin: 0px;
+    line-height: 16px;
+    font-size: 11px;
+  }
+  
+  .sticky li p a {
+    text-decoration: none;
+    color: #2c3539;
+  }
+  
+  .sticky li p a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 990px) {
+    .sticky-container {
+      padding: 0px;
+      margin: 0px;
+      position: fixed;
+      top: 40%;
+      width: 300px;
+      z-index: 1100;
+      right: -120px;
+    }
+  }
+  
+  .sticky .Hoverclass {
+    background-color: #25d366;
+  }
+  
+  .sticky .Hoverclass:hover {
+    background-color: rgb(71, 91, 82, 0.7);
+  }
+  
+  /* floating icon css end */
+  
+  /*--Floating icons CSS--*/
+  @media (min-width: 991px) {
+    .FloatingolClass,
+    .FloatingulClass {
+      padding-left: 2rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .FloatingolClass,
+    .FloatingulClass {
+      /* padding-left: 170px; */
+      left: 145px;
+      position: absolute;
+    }
+  }
+  .icons {
+    top: 75%;
+    right: 0;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+  }
+  .icons ul {
+    padding: initial;
+  }
+  .icons ul li {
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #fff;
+  }
+  
+  .icons ul li:hover {
+    padding-right: 30px;
+    width: 80px;
+  }
+  
+  .Whatsapp {
+    background: #25d366;
+  }
+  
+  .Mail {
+    background: #d44638;
+  }
+  
+  /* Sticky Sidebar */
+  
+  .sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -232px;
+    top: 40%;
+    width: 300px;
+    z-index: 1100;
+  }
+  
+  .sticky li {
+    list-style-type: none;
+    background-color: #fff;
+    color: #efefef;
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    padding-top: 8px;
+    width: 40px;
+  }
+  
+  /* .sticky li:hover {
+        margin-left: -190px;
+      } */
+  
+  .sticky li img {
+    float: left;
+    margin: 5px 4px;
+    margin-right: 5px;
+  }
+  
+  .sticky li p {
+    padding-top: 5px;
+    margin: 0px;
+    line-height: 16px;
+    font-size: 11px;
+  }
+  
+  .sticky li p a {
+    text-decoration: none;
+    color: #2c3539;
+  }
+  
+  .sticky li p a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 990px) {
+    .sticky-container {
+      padding: 0px;
+      margin: 0px;
+      position: fixed;
+      top: 40%;
+      width: 300px;
+      z-index: 1100;
+      right: -80px;
+    }
+  }
+  
+  .sticky .Hoverclass {
+    background-color: #25d366;
+  }
+  
+  .sticky .Hoverclass:hover {
+    background-color: rgb(37, 211, 102, 0.7);
+  }
+  
+  .fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #25d366;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fixed-bottom1 {
+    float: left;
+    display: flex;
+    width: 33%;
+    border: 1px solid #fff;
+  }
+  
+  .fixed-bottom a {
+    padding: 10px 10px 10px 35px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #25d366;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .fixed-bottom a:hover {
+    background-color: #25d366;
+  }
+  @media screen and (min-width: 990px) {
+    .HideInDesktop {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 990px) {
+    .HideInPhone {
+      display: none;
+    }
+  }
+  

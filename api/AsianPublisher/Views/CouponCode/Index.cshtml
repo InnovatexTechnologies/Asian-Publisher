@@ -1,0 +1,77 @@
+@model IEnumerable<AsianPublisher.Models.CouponCode>
+
+@{
+    ViewData["Title"] = "Index";
+    string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a href="~/CouponCode/Create?url=@myurl" class="btn btn-success">Create New</a>
+<div>
+<a href = "/CouponCode/GenerateExcel" class="btn btn-primary">DOWNLOAD EXCEL</a>
+<span style = "margin-right: 20px;" ></ span >
+<a href= "/CouponCode/GeneratePdf" class="btn btn-secondary">DOWNLOAD PDF</a>
+</div>
+<br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Valid UpTo
+            </th>
+            <th>
+                Coupon Type
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Coupon Value
+            </th>
+            <th>
+                Minimum Order Value
+            </th>
+            <th>
+                Maximum Discount Value
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.name
+            </td>
+            <td>
+                @(item.validUpTo>0? item.validUpTo.ToDate().ToString("dd-MMM-yyyy"):"")
+            </td>
+            <td>
+                @item.couponType
+            </td>
+            <td>
+                @(item.status==1?"Yes":"No")
+            </td>
+            <td>
+                @item.couponValue
+            </td>
+            <td>
+                @item.minimumOrderValue
+            </td>
+            <td>
+                @item.maximumDiscountValue
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id , url = myurl}) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id , url = myurl })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

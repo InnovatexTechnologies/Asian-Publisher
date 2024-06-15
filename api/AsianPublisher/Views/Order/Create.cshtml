@@ -1,0 +1,94 @@
+@model AsianPublisher.Models.Order
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Order</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create"  enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Name</label>
+                <input name="name" id="name" value="@Model.name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Email</label>
+                <input name="email" id="email" value="@Model.email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Address</label>
+                <input name="address" id="address" value="@Model.address" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">City</label>
+                <input name="city" id="city" value="@Model.city" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">MobileNo</label>
+                <input name="mobileNo" id="mobileNo" value="@Model.mobileNo" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">State</label>
+                <input name="state" id="state" value="@Model.state" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Country</label>
+                <input name="country" id="country" value="@Model.country" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Pincode</label>
+                <input name="pincode" id="pincode" value="@Model.pincode" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">IsDispatch</label>
+                <input name="isDispatch" id="isDispatch" value="@Model.isDispatch" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">User</label>
+                <select name="userId" id="userId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.Users)
+                    {
+                        @if (Model.userId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Status</label>
+                <input name="status" id="status" value="@Model.status" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Date</label>
+                <input name="date" type="date" id="date" value="@(DateTime.Now.ToString("yyyy-MM-dd"))" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Time</label>
+                <input name="time" type="date" id="time" value="@(DateTime.Now.ToString("HH:MM:ss"))" required class="form-control" />
+            </div>
+            <input name = "url" hidden value = "@ViewBag.url" />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@ViewBag.url">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

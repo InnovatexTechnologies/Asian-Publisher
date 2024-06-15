@@ -1,0 +1,1 @@
+{"atomTokenId":15000015259305,"responseDetails":{"txnStatusCode":"OTS0000","txnMessage":"SUCCESS","txnDescription":"ATOM TOKEN ID HAS BEEN GENERATED SUCCESSFULLY"}}

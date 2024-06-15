@@ -1,0 +1,606 @@
+/* floating icon css start */
+
+.icon-bar {
+    z-index: 25;
+    position: fixed;
+    top: 75%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+    .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+    }
+
+
+        .icon-bar a:hover {
+            background-color: #fff;
+            border: 1px solid #818181;
+            color: #818181;
+        }
+
+.whats {
+    background: #25D366;
+    color: white;
+}
+
+.email {
+    background: #D44638;
+    color: white;
+}
+
+
+/* floating icon css end */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 990px) {
+    .HideInPhone {
+        display: none;
+    }
+
+    .Dashbgheight {
+        height: 0vh
+    }
+
+    .DashboardBackground {
+        background-image: url(/Images/bookheader.png);
+        background-size: contain;
+        background-position: center;
+        height: 0vh;
+        background-attachment: fixed;
+    }
+    .stylecheckingout {
+        max-width: 50%;
+    }
+}
+
+.stylecheckingout {
+    max-width: 35%;
+}
+.AbouttopSec {
+    background-color: #FAA22A;
+    width: 100%;
+    padding: 2px 0px;
+    text-align: center;
+    background-position: top;
+    background-size: cover;
+}
+
+.Abouttophead {
+    font-weight: 1000;
+    font-size: 80px;
+    background-image: url('/Images/bookheader.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.elementdiv {
+    background-color: white;
+}
+
+.rpdiv {
+    min-height: 70px;
+    height: auto;
+    width: 100%;
+    background-color: #FAA22A;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    transition: .3s;
+}
+
+    .rpdiv:hover {
+        transform: translateY(-5px);
+        box-shadow: 2px 2px 2px 2px gray;
+        cursor: pointer;
+    }
+
+    .rpdiv i {
+        color: white;
+        font-size: 25px;
+        padding: 15px 0px 3px 25px;
+    }
+
+.rpcontent {
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+    .rpcontent {
+        font-size: 19px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .Abouttophead {
+        font-size: 50px;
+        line-height: 12vh;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .HideInDesktop {
+        display: none;
+    }
+}
+
+.DashboardBackground {
+    background-image: url(/Images/bookheader.png);
+    background-size: cover;
+    background-position: center;
+    height: 83vh;
+    background-attachment: fixed
+}
+
+.Dashbgheight {
+    height: 83vh
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+/* Nav bar for mobile starts */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: black;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+#main {
+    transition: .5s;
+    overflow-x: hidden;
+    box-shadow: -2px -2px 2px black;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+/* Nav bar for mobile Ends */
+
+
+@media (min-width: 992px) {
+    .dropdown-menu .dropdown-toggle:after {
+        border-top: .3em solid transparent;
+        border-right: 0;
+        border-bottom: .3em solid transparent;
+        border-left: .3em solid;
+    }
+
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .dropdown-menu li {
+        position: relative;
+    }
+
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+
+    .dropdown-menu > li:hover {
+        background-color: #f1f1f1
+    }
+
+        .dropdown-menu > li:hover > .submenu {
+            display: block;
+        }
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+/*form  + -*/
+
+
+.input-number-group {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+    .input-number-group input[type=number]::-webkit-inner-spin-button,
+    .input-number-group input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+
+
+    .input-number-group .input-number {
+        width: 80px;
+        padding: 0 5px;
+        vertical-align: top;
+        text-align: center;
+        outline: none;
+        display: block;
+        margin: 0;
+    }
+
+    .input-number-group .input-number,
+    .input-number-group .input-number-decrement,
+    .input-number-group .input-number-increment {
+        border: 1px solid #cacaca;
+        height: 30px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border-radius: 0;
+    }
+
+    .input-number-group .input-number-decrement,
+    .input-number-group .input-number-increment {
+        display: inline-block;
+        width: 40px;
+        background: #e6e6e6;
+        color: #0a0a0a;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        /* font-size: 2rem;
+        font-weight: 400;*/
+    }
+
+.topfixedbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10;
+}
+
+section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlaybg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 26, 37, 0.35);
+    /* background: linear-gradient(to left ,#F8CB2F , #FF5801); */
+    /* mix-blend-mode: overlay; */
+    /* opacity: .1;
+      */
+}
+
+section .videosingle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.overlaybgsingle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(22, 26, 37, 0.35);
+    /* background: linear-gradient(to left ,#F8CB2F , #FF5801); */
+    /* mix-blend-mode: overlay; */
+    /* opacity: .1;
+      */
+}
+
+.divider {
+    z-index: 1;
+    /* width: 40px; */
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    background-color: #faa22a;
+}
+
+.footericon {
+    font-size: 30px;
+}
+
+.workcircle {
+    position: absolute;
+    left: auto;
+    top: 0px;
+    right: 0;
+    bottom: 0px;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+    margin-top: auto;
+    margin-right: 10 0px;
+    margin-bottom: auto;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: linear-gradient( 135deg, #e8b940, #faa22a 42%, #faa22a 103%);
+}
+
+/*=============================== team */
+
+.teamcard {
+    border: none;
+    border-radius: 13px;
+    padding: 0px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.infoteam {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.info-color {
+    background-image: linear-gradient(90deg, #FF3448, #FF9A26);
+}
+
+.user-icons {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    bottom: 0px;
+    right: 23px;
+    position: relative
+}
+
+.user {
+    line-height: 14px
+}
+
+.name {
+    font-size: 14px;
+    color: white;
+}
+
+.designation {
+    font-size: 10px;
+    color: white;
+}
+
+/*=============================== team */
+
+.topdivcontent {
+    padding: 150px 100px
+}
+
+    .topdivcontent h2 {
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+.aboutusdiv {
+    padding: 0px 200px;
+}
+
+.ourbookheadingdiv {
+    padding: 0px 200px;
+}
+
+.teamdivsec {
+    color: #525B73;
+    /*background-color: #F7F7F7;*/
+    margin-bottom: -20vh;
+}
+
+.Ourstorydiv {
+    background-color: #F7F7F7;
+    height: 80vh;
+    margin-top: 1vh;
+    position: relative;
+}
+
+    .Ourstorydiv div:nth-child(1) {
+        padding: 100px
+    }
+.Ourstorydiv1 {
+    background-color: #F7F7F7;
+    height: 80vh;
+    margin-top: 1vh;
+    position: relative;
+}
+
+    .Ourstorydiv1 div:nth-child(1) {
+        padding: 100px
+    }
+
+    .Ourstorydiv div img {
+        width: 37vw;
+        filter: drop-shadow(5px 5px 5px #666666);
+    }
+    .Ourstorydiv1 div img {
+        width: 20vw;
+        filter: drop-shadow(5px 5px 5px #666666);
+    }
+
+.collegelgogdiv {
+    height: 17vh;
+    background-image: linear-gradient(90deg, #FF3448, #FF9A26);
+}
+
+    .collegelgogdiv div img {
+        width: 9vw;
+    }
+
+@media only screen and (max-width: 990px) {
+    .collegelgogdiv div img {
+        width: 25vw;
+    }
+
+    .collegelgogdiv {
+        height: 10vh;
+        background-image: linear-gradient(90deg, #FF3448, #FF9A26);
+    }
+
+    .Ourstorydiv div img {
+        width: 100vw;
+        height:70vh;
+        padding: 20px;
+        filter: drop-shadow(5px 5px 5px #666666);
+    }
+    .Ourstorydiv1 div img {
+        width: 100vw;
+        padding: 20px;
+        filter: drop-shadow(5px 5px 5px #666666);
+    }
+
+    .Ourstorydiv1 div:nth-child(1) {
+        padding: 50px 50px 0px 50px;
+    }
+
+    .Ourstorydiv1 {
+        background-color: #F7F7F7;
+        height: 140vh;
+        margin-top: 10vh;
+        position: relative;
+    }
+
+        .Ourstorydiv div:nth-child(1) {
+            padding: 50px 50px 0px 50px;
+        }
+
+    .Ourstorydiv {
+        background-color: #F7F7F7;
+        height: 140vh;
+        margin-top: 10vh;
+        position: relative;
+    }
+
+    .teamdivsec {
+        color: #525B73;
+        /*background-color: #F7F7F7;*/
+        margin-bottom: -5vh;
+    }
+
+    .ourbookheadingdiv {
+        padding: 0px 20px;
+    }
+
+        .ourbookheadingdiv h1:nth-child(2) {
+            color: black;
+            font-size: 37px;
+            opacity: 0.2;
+            font-weight: 900;
+            margin-top: 19px;
+            padding-bottom: 130px;
+        }
+
+    .aboutusdiv h1 {
+        font-size: 35px;
+    }
+
+    .aboutusdiv {
+        padding: 0px 20px;
+    }
+
+    .topdivcontent h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .topdivcontent {
+        padding: 110px 20px
+    }
+}

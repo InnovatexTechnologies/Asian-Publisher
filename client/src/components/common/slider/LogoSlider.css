@@ -1,0 +1,17 @@
+/* .slick-track {
+  opacity: 1;
+  width: 100vw !important;
+  transform: translate3d(0px, 0px, 0px);
+}
+.slick-current {
+  width: 100vw !important;
+} */
+/* .row .slick-slide .slick-current {
+  width: 100vw;
+} */
+.slick-arrow .slick-next {
+  display: none;
+}
+/* .slick-arrow .slick-prev {
+  display: none;
+} */

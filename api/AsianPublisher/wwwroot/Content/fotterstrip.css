@@ -1,0 +1,106 @@
+.footerstripsec {
+    position: relative;
+    width: 110vw;
+    margin-left: -16px;
+    height: 50vh;
+    display: flex;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 990px) {
+    .footerstripsec {
+        position: relative;
+        width: 105vw;
+        margin-left: -16px;
+        height: 25vh;
+        display: flex;
+        overflow: hidden;
+    }
+}
+.footerstripsec div {
+    position: relative;
+    width: 50%;
+    background-image: linear-gradient(90deg, #FF3448, #FF9A26);
+    overflow: hidden;
+}
+
+    .footerstripsec div:nth-child(1) {
+        position: relative;
+        width: 50%;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/1495293709667.jpg);
+        background-size: cover;
+        overflow: hidden;
+    }
+
+.footerstripsec div h2 {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 100px;
+    color: white;
+    line-height: 50vh;
+    animation: animate 15s linear infinite;
+}
+
+@media screen and (max-width: 990px) {
+    .footerstripsec div h2 {
+        position: absolute;
+        white-space: nowrap;
+        font-size: 30px;
+        color: white;
+        line-height: 25vh;
+        animation: animate 15s linear infinite;
+    }
+}
+.footerstripsec div:nth-child(1) h2 {
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-fill-color: transparent ;
+    left: 100%;
+
+}
+
+@keyframes animate {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+/* ============================================== */
+.collegestrip{
+    position: relative;
+    width: 100vw;
+    margin-left: -16px;
+    height: 50vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.collegestrip div {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(90deg, #FF3448, #FF9A26);
+    overflow: hidden;
+}
+
+.collegestrip div h2 {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 100px;
+    color: white;
+    line-height: 50vh;
+    animation: animate 15s linear infinite;
+}
+.collegestrip div h2 img{
+    width: 20vw;
+}
+@media screen and (max-width: 990px) {
+    .collegestrip{
+        height: 15vh;
+    }
+    .collegestrip div h2 {
+        line-height:15vh;
+    }
+}

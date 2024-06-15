@@ -1,0 +1,85 @@
+@model AsianPublisher.Models.Book
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Book</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Name</label>
+                <input name="name" id="name" value="@Model.name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">MRP</label>
+                <input name="mRP" id="mRP" value="@Model.mRP" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">BookCode</label>
+                <input name="bookCode" id="bookCode" value="@Model.bookCode" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">ISBN</label>
+                <input name="iSBN" id="iSBN" value="@Model.iSBN" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Description</label>
+                <textarea name="description" id="description" class="form-control">@Model.description</textarea>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Language</label>
+                <select name="languageId" id="languageId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.Languages)
+                    {
+                        @if (Model.languageId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">SamplePdf</label>
+                <input name="samplePdfFile" type="file" id="samplePdf" value="@Model.samplePdf" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Image</label>
+                <input name="imageFile" type="file" id="image" value="@Model.image" class="form-control" />
+            </div>
+            <input name="url" hidden value="@ViewBag.url" />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@ViewBag.url">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#languageId").select2();
+    });
+</script>

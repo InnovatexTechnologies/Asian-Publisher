@@ -1,0 +1,114 @@
+
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background-color: lightblue;
+    height: 100vh;
+} */
+
+.shopcard {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.201);
+    transition: 1s;
+}
+
+.shopcard .shopdetails {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopcard .shopdetails .shopcontent {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.shopcard .shopdetails .shopcontent h4 {
+    text-align: left;
+    font-weight: 700;
+    color: black;
+    line-height: 1em;
+}
+.shopcard .shopdetails .shopcontent p {
+    text-align: left;
+    font-weight: 500;
+    color: black;
+    line-height: 1em;
+}
+.shopcard .shopdetails .shopcontent a {
+    text-align: left;
+    
+}
+
+.shopcard .shopdetails .shopcontent h4 span {
+    color: red;
+
+}
+
+.shopcard .shopdetails .shopcontent .shopsocialicons {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+}
+
+.shopcard .shopdetails .shopcontent .shopsocialicons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    color: #fff;
+    font-size: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.shopcard .shopimgBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: 1s;
+    z-index: 1;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.201);
+}
+.shopcard:hover{
+    transform: translateX(50%);
+}
+.shopcard:hover .shopimgBox {
+    transform: rotateY(-180deg);
+}
+
+.shopcard .shopimgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.shopcard .shopimgBox img:nth-child(2){
+    transform: rotateY(180deg);
+}

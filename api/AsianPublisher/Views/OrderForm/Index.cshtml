@@ -1,0 +1,114 @@
+@model IEnumerable<AsianPublisher.Models.OrderForm>
+
+@{
+    ViewData["Title"] = "Index";
+    string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
+}
+
+<form method="post" action="~/OrderForm/Index">
+    <div class="row">
+        <div class="col-3">
+            <label class="control-label">Book</label>
+            <select name="bookId" id="bookId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Books)
+                {
+                    if (ViewBag.bookId != null && ViewBag.bookId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-3"><button class="btn btn-info" type="submit">Submit</button></div>
+    </div>
+</form>
+<h1>Index</h1>
+
+<p>
+    <a href="~/OrderForm/Create?url=@myurl" class="btn btn-success">Create New</a>
+<div>
+<a href = "/OrderForm/GenerateExcel?bookId=@ViewBag.bookId" class="btn btn-primary">DOWNLOAD EXCEL</a>
+<span style = "margin-right: 20px;" ></ span >
+<a href= "/OrderForm/GeneratePdf?bookId=@ViewBag.bookId" class="btn btn-secondary">DOWNLOAD PDF</a>
+</div>
+<br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                MobileNo
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                City
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Book
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.name
+            </td>
+            <td>
+                @item.address
+            </td>
+            <td>
+                @item.mobileNo
+            </td>
+            <td>
+                @item.description
+            </td>
+            <td>
+                @item.city
+            </td>
+            <td>
+                @item.email
+            </td>
+            <td>
+                @item.quantity
+            </td>
+            <td>
+                @item.bookNav?.name
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id , url = myurl}) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id , url = myurl })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<script type = "text / javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" ></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+<script type = "text / javascript" src = "https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js" ></script>
+<script type = "text / javascript">
+$(function(){
+$("#bookId").select2(); 
+});
+</script>

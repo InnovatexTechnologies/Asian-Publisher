@@ -1,0 +1,180 @@
+﻿@import url('https://fonts.googleapis.com/ccs2?family=Poppins:400;500;600700;800;900&display=swap');
+/*#main {
+    background-color: #F7F7F7;
+}*/
+.authorcard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    height: 450px;
+    background: #287bff;
+    width: 320px;
+    margin: 30px;
+    border-radius: 20px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: 0 15px 0 #fff, inset 0 -15px 0 rgba(255,255,255,0.25), 0 45px 0 rgba(0,0,0,0.15);
+    overflow: hidden;
+    border: none;
+}
+
+    .authorcard::before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        left: -40%;
+        width: 100%;
+        height: 150%;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2));
+        transform: rotate(35deg);
+        pointer-events: none;
+        filter: blur(5px);
+    }
+
+    .authorcard:nth-child(1) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(2) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(3) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(4) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(5) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(6) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(7) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(8) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(9) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+    .authorcard:nth-child(10) {
+        background: linear-gradient(to bottom, #FF3448, #FF9A26);
+        display: grid;
+        float: left;
+    }
+
+.icon {
+    position: relative;
+    width: 140px;
+    height: 120px;
+    background: #fff;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0 10px 0 rgba(0,0,0,0.1), inset 0 -8px 0 #fff, 0 -8px 0 #fff;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
+    .icon::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50px;
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        border-top-right-radius: 50px;
+        box-shadow:none;
+        /*box-shadow: 17px -17px 0 15px #fff;*/
+    }
+
+    .icon::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -50px;
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        border-top-left-radius: 50px;
+        box-shadow:none;
+        /*box-shadow: -17px -16px 0 13px #fff;*/
+    }
+
+    .icon .icons {
+        color: #FF9A26;
+        position: relative;
+        font-size: 5em;
+        z-index: 10000;
+        padding: 10px;
+        --ionicon-stroke-width: 24px;
+    }
+
+.content {
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    padding-top: 140px;
+    text-align: center;
+}
+
+    .content h2 {
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        color: #fff;
+        line-height: 1.5em;
+    }
+
+/* width */
+        .content p::-webkit-scrollbar {
+            width: 10px;
+        }
+
+/* Track */
+        .content p::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+/* Handle */
+        .content p::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+    /* Handle on hover */
+            .content p::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }

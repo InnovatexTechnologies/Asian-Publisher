@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Request</title>
+    <script src="https://pgtest.atomtech.in/staticdata/ots/js/atomcheckout.js" type="text/javascript"></script>@* old *@
+
+
+    <script type="text/javascript">
+
+        function openPay() {          
+          
+            const options = {
+                "atomTokenId": "@ViewBag.Tok_id",
+                "merchId": "@ViewBag.merchId",
+                "custEmail": "@ViewBag.mail",
+                "custMobile": "@ViewBag.mob",
+                "returnUrl": "https://localhost:44346/Gateway/Response"
+                 // "returnUrl": "https://localhost:7266/Gateway/Response"
+                // "returnUrl": "https://webhook.site/ebf9dc51-5f91-480a-95d2-6f053eaf3949"
+            }
+            let atom = new AtomPaynetz(options, 'uat');
+        }
+    </script>
+
+
+</head>
+<body>
+
+
+
+    <a href="#" onclick="openPay(); return false">Pay</a>
+    
+
+
+
+
+</body>
+</html>

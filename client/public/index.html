@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Asian Publishers</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/Images/AsianLogo.jpeg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body style="overflow-x: hidden;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script
+      src="https://psa.atomtech.in/staticdata/ots/js/atomcheckout.js"
+      type="text/javascript"
+    ></script>
+    <!-- <script
+      src="https://pgtest.atomtech.in/staticdata/ots/js/atomcheckout.js"
+      type="text/javascript"
+    ></script> -->
+    <script>
+      window.addEventListener("scroll", function () {
+        var navbar = document.querySelector(".navbar");
+        var navLinks = document.querySelectorAll(".nav-link");
+
+        if (window.scrollY > 0) {
+          navbar.classList.add("navbar-white-bg");
+          navLinks.forEach(function (link) {
+            link.classList.add("nav-link-black");
+          });
+        } else {
+          navbar.classList.remove("navbar-white-bg");
+          navLinks.forEach(function (link) {
+            link.classList.remove("nav-link-black");
+          });
+        }
+      });
+    </script>
+    <script>
+      function startCount() {
+        var numbers = document.querySelectorAll(".number");
+        var speed = 200; // Adjust speed as needed
+        var delay = 100; // Adjust delay as needed
+
+        numbers.forEach(function (number) {
+          var countTo = parseInt(number.getAttribute("data-count"));
+          var interval = countTo / speed;
+
+          var timer = setInterval(function () {
+            var currentValue = parseInt(number.innerText);
+            var newValue = currentValue + interval;
+
+            if (newValue >= countTo) {
+              clearInterval(timer);
+              newValue = countTo;
+            }
+
+            // Append plus sign after the number
+            number.innerText = Math.ceil(newValue) + "+";
+          }, delay);
+        });
+      }
+
+      // Call startCount when the element is in view
+      window.addEventListener("scroll", function () {
+        var element = document.getElementById("number-scroller");
+        if (element) {
+          var bounding = element.getBoundingClientRect();
+          if (
+            bounding.top >= 0 &&
+            bounding.bottom <=
+              (window.innerHeight || document.documentElement.clientHeight)
+          ) {
+            startCount();
+            window.removeEventListener("scroll", this);
+          }
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const searchWrapper = document.querySelector(".search-wrapper");
+        const searchBox = document.querySelector(".search-box");
+
+        if (searchWrapper && searchBox) {
+          searchWrapper.addEventListener("click", function (event) {
+            if (searchBox.style.display === "block") {
+              searchBox.style.display = "none";
+            } else {
+              searchBox.style.display = "block";
+            }
+            event.stopPropagation(); // Prevent click event from bubbling up
+          });
+
+          // Close search box when clicking outside of it
+          document.addEventListener("click", function (event) {
+            if (!searchWrapper.contains(event.target)) {
+              searchBox.style.display = "none";
+            }
+          });
+        } else {
+          console.error("Search wrapper or search box not found.");
+        }
+      });
+    </script>
+  </body>
+</html>

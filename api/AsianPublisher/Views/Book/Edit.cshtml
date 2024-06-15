@@ -1,0 +1,165 @@
+@model AsianPublisher.Models.Book
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Book</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="id" class="form-control" />
+            <input hidden asp-for="numId" class="form-control" />
+            <input hidden asp-for="idPrefix" class="form-control" />
+            <div class="form-group">
+                <label class="control-label">Name</label>
+                <input name="name" id="name" value="@Model.name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">MRP</label>
+                <input name="mRP" id="mRP" value="@Model.mRP" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">BookCode</label>
+                <input name="bookCode" id="bookCode" value="@Model.bookCode" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">ISBN</label>
+                <input name="iSBN" id="iSBN" value="@Model.iSBN" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Description</label>
+                @* <textarea name="description" id="description" class="form-control">@Model.description</textarea> *@
+                <textarea rows="10" id="file-picker" name="description">@Model.description</textarea>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Language</label>
+                <select name="languageId" id="languageId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.Languages)
+                    {
+                        @if (Model.languageId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">SamplePdf</label>
+                @if (Model.samplePdf != null)
+                {
+                    <iframe src="~/Pdf/@Model.samplePdf" width="100px" height="200px"></iframe>
+                }
+                <input name="samplePdfFile" type="file" id="samplePdfFile" class="form-control" />
+                <input hidden asp-for="samplePdf" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Image</label>
+                @if (Model.image != null)
+                {
+                    <img src="~/Image/@Model.image" width="100px" height="200px"></img>
+                }
+                <input name="imageFile" type="file" id="image" class="form-control" />
+                <input hidden asp-for="image" class="form-control" />
+            </div>
+            <input name="url" hidden value="@ViewBag.url" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@ViewBag.url">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#languageId").select2();
+    });
+</script>
+
+<!-- javascript -->
+<script src="~/Content/EditorWithImage/js/jquery.min.js"></script>
+<script src="~/Content/EditorWithImage/plugin/tinymce/tinymce.min.js"></script>
+<script src="~/Content/EditorWithImage/plugin/tinymce/init-tinymce.js"></script>
+<script>
+
+    tinymce.init({
+        selector: 'textarea#file-picker',
+        plugins: 'image code',
+        toolbar: 'undo redo | link image | code',
+        /* enable title field in the Image dialog*/
+        image_title: true,
+        /* enable automatic uploads of images represented by blob or data URIs*/
+        automatic_uploads: true,
+        /*
+          URL of our upload handler (for more details check: https://www.tiny.cloud/docs/configure/file-image-upload/#images_upload_url)
+          images_upload_url: 'postAcceptor.php',
+          here we add custom filepicker only to Image dialog
+        */
+        file_picker_types: 'image',
+        /* and here's our custom image picker*/
+        file_picker_callback: function (cb, value, meta) {
+            var input = document.createElement('input');
+            input.setAttribute('type', 'file');
+            input.setAttribute('accept', 'image/*');
+
+            /*
+              Note: In modern browsers input[type="file"] is functional without
+              even adding it to the DOM, but that might not be the case in some older
+              or quirky browsers like IE, so you might want to add it to the DOM
+              just in case, and visually hide it. And do not forget do remove it
+              once you do not need it anymore.
+            */
+
+            input.onchange = function () {
+                var file = this.files[0];
+
+                var reader = new FileReader();
+                reader.onload = function () {
+                    /*
+                      Note: Now we need to register the blob in TinyMCEs image blob
+                      registry. In the next release this part hopefully won't be
+                      necessary, as we are looking to handle it internally.
+                    */
+                    var id = 'blobid' + (new Date()).getTime();
+                    var blobCache = tinymce.activeEditor.editorUpload.blobCache;
+                    var base64 = reader.result.split(',')[1];
+                    var blobInfo = blobCache.create(id, file, base64);
+                    blobCache.add(blobInfo);
+
+                    /* call the callback and populate the Title field with the file name */
+                    cb(blobInfo.blobUri(), { title: file.name });
+                };
+                reader.readAsDataURL(file);
+            };
+
+            input.click();
+        },
+        content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+    });
+
+
+
+</script>

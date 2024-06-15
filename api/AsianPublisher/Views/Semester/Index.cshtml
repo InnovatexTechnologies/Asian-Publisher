@@ -1,0 +1,108 @@
+@model IEnumerable<AsianPublisher.Models.Semester>
+
+@{
+    ViewData["Title"] = "Index";
+    string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
+}
+
+<form method="post" action="~/Semester/Index">
+    <div class="row">
+        <div class="col-3">
+            <label class="control-label">Academic Year</label>
+            <select name="academicId" id="academicId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.AcademicYears)
+                {
+                    if (ViewBag.academicId != null && ViewBag.academicId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-3">
+            <label class="control-label">Semester Category</label>
+            <select name="semesterId" id="semesterId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.SemesterCategories)
+                {
+                    if (ViewBag.semesterId != null && ViewBag.semesterId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-3"><button class="btn btn-info" type="submit">Submit</button></div>
+    </div>
+</form>
+<h1>Index</h1>
+
+<p>
+    <a href="~/Semester/Create?url=@myurl" class="btn btn-success">Create New</a>
+<div>
+<a href = "/Semester/GenerateExcel?academicId=@ViewBag.academicId&semesterId=@ViewBag.semesterId" class="btn btn-primary">DOWNLOAD EXCEL</a>
+<span style = "margin-right: 20px;" ></ span >
+<a href= "/Semester/GeneratePdf?academicId=@ViewBag.academicId&semesterId=@ViewBag.semesterId" class="btn btn-secondary">DOWNLOAD PDF</a>
+</div>
+<br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Alias
+            </th>
+            <th>
+                Academic Year
+            </th>
+            <th>
+                Semester Category
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.name
+            </td>
+            <td>
+                @item.alias
+            </td>
+            <td>
+                @item.academicNav?.name
+            </td>
+            <td>
+                @item.semesterNav?.name
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id , url = myurl}) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id , url = myurl })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#academicId").select2();
+        $("#semesterId").select2();
+    });
+</script>

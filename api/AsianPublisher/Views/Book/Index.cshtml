@@ -1,0 +1,132 @@
+@model IEnumerable<AsianPublisher.Models.Book>
+
+@{
+    ViewData["Title"] = "Index";
+    string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
+}
+
+<form method="post" action="~/Book/Index">
+    <div class="row">
+        <div class="col-3">
+            <label class="control-label">Language</label>
+            <select name="languageId" id="languageId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Languages)
+                {
+                    if (ViewBag.languageId != null && ViewBag.languageId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        @* <div class="col-3">
+            <label class="control-label">Book</label>
+            <select name="bookId" id="bookId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Books)
+                {
+                    if (ViewBag.bookId != null && ViewBag.bookId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div> *@
+        <div class="col-3">
+            <label class="control-label">Book Name</label>
+            <input name="bookId" id="bookId" class="form-control" />
+        </div>
+        <div class="col-3">
+            <label class="control-label">ISBN</label>
+            <input name="iSBN" id="iSBN" class="form-control" />
+        </div>
+
+        <div class="col-3"><button class="btn btn-info" type="submit">Submit</button></div>
+    </div>
+</form>
+<h1>Index</h1>
+
+<p>
+    <a href="~/Book/Create?url=@myurl" class="btn btn-success">Create New</a>
+    <div>
+        <a href="/Book/GenerateExcel?languageId=@ViewBag.languageId&iSBN=@ViewBag.iSBN&bookId=@ViewBag.bookId" class="btn btn-primary">DOWNLOAD EXCEL</a>
+        <span style="margin-right: 20px;">
+        </span>
+        <a href="/Book/GeneratePdf?languageId=@ViewBag.languageId&iSBN=@ViewBag.iSBN&bookId=@ViewBag.bookId" class="btn btn-secondary">DOWNLOAD PDF</a>
+    </div>
+    <br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th width="15%">
+                ISBN
+            </th>
+            <th width="20%">
+                Name
+            </th>
+            <th width="10%">
+                Language
+            </th>
+            <th width="20%">
+                Authors
+            </th>
+            <th width="15%">
+                Course
+            </th>            
+            <th width="30%">
+                Description
+            </th>
+            <th width="15%"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.iSBN
+                </td>
+                <td>
+                    @item.name
+                </td>
+                <td>
+                    @item.languageNav?.name
+                </td>
+                <td>
+                    @string.Join(", ", item.authors.Select(o => o.name).ToList())
+                </td>
+                <td>
+                    @string.Join(", ", item.courseSemesters.Select(o => o.combine).ToList())
+                </td>
+                <td>
+                    @Html.Raw(item.description)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id, url = myurl }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl })|
+                    <a href="/BookAuthor/Index?bookId=@item.id&languageId=@ViewBag.languageId&iSBN=@ViewBag.iSBN&bookIdN=@ViewBag.bookId">Authors</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#languageId").select2();
+        // $("#bookId").select2();
+    });
+</script>

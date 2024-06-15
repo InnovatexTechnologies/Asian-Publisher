@@ -1,0 +1,74 @@
+@model AsianPublisher.Models.DispatchDetail
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DispatchDetail</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="id" class="form-control" />
+            <input hidden asp-for="numId" class="form-control" />
+            <input hidden asp-for="idPrefix" class="form-control" />
+            <div class="form-group">
+                <label class="control-label">CourierName</label>
+                <input name="courierName" id="courierName" value="@Model.courierName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">DopicNo</label>
+                <input name="dopicNo" id="dopicNo" value="@Model.dopicNo" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">DopicDate</label>
+                <input name="dopicDate" type="date" id="dopicDate" value="@Model.dopicDate.ToDate().ToString("yyyy-MM-dd")" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Order</label>
+                <select name="orderId" id="orderId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.Orders)
+                    {
+                        @if (Model.orderId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <input name="url" hidden value="@ViewBag.url" />
+            <div class="form-group">
+                <input type="submit" id="saveData" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@ViewBag.url">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<script type="text / javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text / javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script type="text / javascript">
+    $(function() {
+    $("#orderId").select2();
+    });
+</script>

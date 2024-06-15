@@ -1,0 +1,73 @@
+@model IEnumerable<AsianPublisher.Models.Author>
+
+@{
+    ViewData["Title"] = "Index";
+    string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a href="~/Author/Create?url=@myurl" class="btn btn-success">Create New</a>
+    <div>
+        <a href="/Author/GenerateExcel" class="btn btn-primary">DOWNLOAD EXCEL</a>
+        <span style="margin-right: 20px;">
+            </ span >
+            <a href="/Author/GeneratePdf" class="btn btn-secondary">DOWNLOAD PDF</a>
+    </div>
+    <br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                MobileNo
+            </th>
+            <th>
+                EmailId
+            </th>
+            <th>
+                Code
+            </th>
+            @* <th>
+            Content
+            </th>
+            <th>
+            Content2
+            </th> *@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.name
+                </td>
+                <td>
+                    @item.mobileNo
+                </td>
+                <td>
+                    @item.emailId
+                </td>
+                <td>
+                    @item.code
+                </td>
+                @* <td>
+            @item.content
+            </td>
+            <td>
+            @item.content2
+            </td> *@
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id, url = myurl }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
