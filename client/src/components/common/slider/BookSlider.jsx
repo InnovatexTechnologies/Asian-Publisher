@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { REACT_APP_URL } from "../../../config/config";
+import { useNavigate } from "react-router-dom";
+
 const BookSlider = ({ slider, type = "" }) => {
   const settings = {
     dots: false,
@@ -13,14 +15,14 @@ const BookSlider = ({ slider, type = "" }) => {
     slidesToShow: 4,
     slidesToScroll: 1,
   };
-
+  const navigate = useNavigate();
   return (
     <div className="row">
       <div className="col-sm-12">
         <Slider {...settings}>
           {slider.map((item, index) => {
             if (item.isFeatured === true) {
-              return <CarousalItem key={index} {...item} type={type} />;
+              return <CarousalItem key={index} {...item} type={type} navigate={navigate} />;
             }
           })}
         </Slider>
@@ -29,7 +31,7 @@ const BookSlider = ({ slider, type = "" }) => {
   );
 };
 
-const CarousalItem = ({ image, name, iSBN, authors, mRP, type }) => {
+const CarousalItem = ({ image, name, iSBN, authors, mRP, type, navigate, id }) => {
   return (
     <>
       <div className="col-lg-12" style={{ float: "left" }}>
@@ -39,6 +41,9 @@ const CarousalItem = ({ image, name, iSBN, authors, mRP, type }) => {
               className="book-cover"
               src={`${REACT_APP_URL}/Image/${image}`}
               alt="Book Cover"
+              onClick={() => {
+                navigate(`/BookDetails/${id}`);
+              }}
             />
             <div className="effect"></div>
             <div className="light"></div>

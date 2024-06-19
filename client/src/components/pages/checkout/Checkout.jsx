@@ -94,7 +94,7 @@ function Checkout() {
         response?.data?.order?.merchId !== "" &&
         response?.data?.message === "Success"
       ) {
-        toastSuceess("Your order has picked successfully");
+        // toastSuceess("Your order has picked successfully");
         const newData = {
           atomTokenId: response?.data?.order?.tokenId,
           merchId: response?.data?.order?.merchId,
@@ -109,7 +109,7 @@ function Checkout() {
       toastError(error?.response?.data?.message);
     }
     setLoader(false);
-    dispatch(resetCart());
+    // dispatch(resetCart());
   }
   useEffect(() => {
     setCartItem(cartdata);
@@ -288,6 +288,14 @@ function Checkout() {
                       required
                       value={formData.mobileNo}
                       onChange={handleChange}
+                      onKeyPress={(event) => {
+                        if (
+                          !/[0-9]/.test(event.key) ||
+                          formData.mobileNo.length >= 10
+                        ) {
+                          event.preventDefault();
+                        }
+                      }}
                     />
                   </div>
                   <div
@@ -372,6 +380,14 @@ function Checkout() {
                       className="form-controlCustomized"
                       name="pincode"
                       required
+                      onKeyPress={(event) => {
+                        if (
+                          !/[0-9]/.test(event.key) ||
+                          formData.pincode.length >= 6
+                        ) {
+                          event.preventDefault();
+                        }
+                      }}
                       value={formData.pincode}
                       onChange={handleChange}
                     />
