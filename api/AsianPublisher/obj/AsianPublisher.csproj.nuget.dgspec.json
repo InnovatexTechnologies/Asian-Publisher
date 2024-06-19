@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\AsianPublisher.csproj": {}
+    "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\AsianPublisher.csproj": {}
   },
   "projects": {
-    "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\AsianPublisher.csproj": {
+    "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\AsianPublisher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\AsianPublisher.csproj",
+        "projectUniqueName": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\AsianPublisher.csproj",
         "projectName": "AsianPublisher",
-        "projectPath": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\AsianPublisher.csproj",
-        "packagesPath": "C:\\Users\\Marwari\\.nuget\\packages\\",
-        "outputPath": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\",
+        "projectPath": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\AsianPublisher.csproj",
+        "packagesPath": "C:\\Users\\sairam\\.nuget\\packages\\",
+        "outputPath": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Marwari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sairam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

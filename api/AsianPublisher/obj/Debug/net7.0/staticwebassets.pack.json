@@ -1,679 +1,679 @@
 {
   "Files": [
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AsianPublisher.bundle.scp.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AsianPublisher.bundle.scp.css",
       "PackagePath": "staticwebassets\\AsianPublisher.bundle.scp.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\AuthorStyle.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\AuthorStyle.css",
       "PackagePath": "staticwebassets\\Content\\AuthorStyle.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\DigiStyle.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\DigiStyle.css",
       "PackagePath": "staticwebassets\\Content\\DigiStyle.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\js\\getdata.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\js\\getdata.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\js\\getdata.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\js\\jquery.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\js\\jquery.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\init-tinymce.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\init-tinymce.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\init-tinymce.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\jquery.tinymce.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\jquery.tinymce.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\jquery.tinymce.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\langs\\readme.md",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\langs\\readme.md",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\langs\\readme.md"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\license.txt",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\license.txt",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\license.txt"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\advlist\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\advlist\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\anchor\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\anchor\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autolink\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autolink\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autoresize\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autoresize\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autosave\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autosave\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\bbcode\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\bbcode\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\charmap\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\charmap\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\code\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\code\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\code\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\css\\prism.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\css\\prism.css",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\css\\prism.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\colorpicker\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\colorpicker\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\contextmenu\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\contextmenu\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\directionality\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\directionality\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\dialog.html",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\dialog.html",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\dialog.html"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example_dependency\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example_dependency\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example_dependency\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullpage\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullpage\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullscreen\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullscreen\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\hr\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\hr\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\hr\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\image\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\image\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\image\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\imagetools\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\imagetools\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\importcss\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\importcss\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\layer\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\layer\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\layer\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\link\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\link\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\link\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\lists\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\lists\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\lists\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\moxieplayer.swf",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\moxieplayer.swf",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\moxieplayer.swf"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\noneditable\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\noneditable\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\pagebreak\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\pagebreak\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\paste\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\paste\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\paste\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\preview\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\preview\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\preview\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\print\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\print\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\print\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\save\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\save\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\save\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\searchreplace\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\searchreplace\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\spellchecker\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\spellchecker\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\tabfocus\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\tabfocus\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\table\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\table\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\table\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\template\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\template\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\template\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textcolor\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textcolor\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textpattern\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textpattern\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualchars\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualchars\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\wordcount\\plugin.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\wordcount\\plugin.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.inline.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.inline.min.css",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.inline.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.min.css",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\anchor.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\anchor.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\anchor.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\loader.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\loader.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\loader.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\object.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\object.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\object.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\trans.gif",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\trans.gif",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\trans.gif"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.ie7.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.ie7.min.css",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.ie7.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.min.css",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\themes\\modern\\theme.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\themes\\modern\\theme.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\themes\\modern\\theme.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\tinymce.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\tinymce.min.js",
       "PackagePath": "staticwebassets\\Content\\EditorWithImage\\plugin\\tinymce\\tinymce.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\PagedList.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\PagedList.css",
       "PackagePath": "staticwebassets\\Content\\PagedList.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\Search.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\Search.css",
       "PackagePath": "staticwebassets\\Content\\Search.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\Site.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\Site.css",
       "PackagePath": "staticwebassets\\Content\\Site.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\addtocart.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\addtocart.css",
       "PackagePath": "staticwebassets\\Content\\addtocart.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\adminpanelcss.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\adminpanelcss.css",
       "PackagePath": "staticwebassets\\Content\\adminpanelcss.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\buttoneffect.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\buttoneffect.css",
       "PackagePath": "staticwebassets\\Content\\buttoneffect.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\card.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\card.css",
       "PackagePath": "staticwebassets\\Content\\card.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\cardsingle.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\cardsingle.css",
       "PackagePath": "staticwebassets\\Content\\cardsingle.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\digistyle1.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\digistyle1.css",
       "PackagePath": "staticwebassets\\Content\\digistyle1.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\fotterstrip.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\fotterstrip.css",
       "PackagePath": "staticwebassets\\Content\\fotterstrip.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.intellisense.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.intellisense.js",
       "PackagePath": "staticwebassets\\Content\\script\\jquery-1.8.2.intellisense.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.js",
       "PackagePath": "staticwebassets\\Content\\script\\jquery-1.8.2.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.min.js",
       "PackagePath": "staticwebassets\\Content\\script\\jquery-1.8.2.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\team.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\team.css",
       "PackagePath": "staticwebassets\\Content\\team.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\themes\\base\\jquery-ui.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\themes\\base\\jquery-ui.css",
       "PackagePath": "staticwebassets\\Content\\themes\\base\\jquery-ui.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\themes\\base\\jquery-ui.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\themes\\base\\jquery-ui.min.css",
       "PackagePath": "staticwebassets\\Content\\themes\\base\\jquery-ui.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\css\\site.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\favicon.ico",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\js\\jquery-ui-1.13.1.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\js\\jquery-ui-1.13.1.js",
       "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.1.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\js\\jquery-ui-1.13.1.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\js\\jquery-ui-1.13.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-ui-1.13.1.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\js\\site.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

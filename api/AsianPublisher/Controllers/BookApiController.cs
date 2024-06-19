@@ -128,7 +128,7 @@ namespace AsianPublisher.Controllers
                         model.idPrefix = "F";
                         model.numId = db.ExecuteScalar<int>("select Max(numId) from Books where idPrefix = 'F'") + 1;
                         model.id = model.idPrefix + model.numId;
-                        string sql = "INSERT INTO Books (id, numId, idPrefix, name, mRP, bookCode, iSBN, languageId, samplePdf, image, isFeatured,description) VALUES (@id, @numId, @idPrefix, @name, @mRP, @bookCode, @iSBN, @languageId, @samplePdf, @image, @isFeatured,@description)";
+                        string sql = "INSERT INTO Books (id, numId, idPrefix, name, mRP, bookCode, iSBN, languageId, samplePdf, image, isFeatured,description,relatedBooks) VALUES (@id, @numId, @idPrefix, @name, @mRP, @bookCode, @iSBN, @languageId, @samplePdf, @image, @isFeatured,@description,@relatedBooks)";
                         int affectedRows = db.Execute(sql, model, transaction);
                         transaction.Commit();
                         return Ok(new { Message = "Success" });
@@ -152,7 +152,7 @@ namespace AsianPublisher.Controllers
                 {
                     try
                     {
-                        string sql = "update Books set name=@name ,mRP=@mRP ,bookCode=@bookCode ,iSBN=@iSBN ,languageId=@languageId ,samplePdf=@samplePdf,image=@image,isFeatured=@isFeatured,description=@description  where id = @id";
+                        string sql = "update Books set name=@name ,mRP=@mRP ,bookCode=@bookCode ,iSBN=@iSBN ,languageId=@languageId ,samplePdf=@samplePdf,image=@image,isFeatured=@isFeatured,description=@description,relatedBooks=@relatedBooks  where id = @id";
                         int affectedRows = db.Execute(sql, model, transaction);
                         transaction.Commit();
                         return Ok(new { Message = "Updated" });
