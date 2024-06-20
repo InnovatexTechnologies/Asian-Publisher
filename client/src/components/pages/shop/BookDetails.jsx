@@ -8,26 +8,56 @@ import { useParams } from "react-router-dom";
 import { updateTocart } from "../../../redux/slices/cartSlice";
 import contactusheaderimage from "../../../Images/contactusheaderimage.png";
 import Book1 from "../../../Images/Book1.jpg";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function BookDetails() {
+  const navigate = useNavigate();
   const { loading, bookDetails } = useSelector((state) => state.book);
   const { cartdata } = useSelector((state) => state.cart);
+  const [searchFilter, setSearchFilter] = useState("");
+  const [SuggestedBook, setSuggestedBook] = useState([]);
+  const [addedToCart, setAddedToCart] = useState(false);
   const dispatch = useDispatch();
   let { id } = useParams();
 
   const [bookDetail, setBookDetail] = useState({});
   const [bookQuantity, setQuantity] = useState(1);
   const bookQnty = cartdata.find((item) => item.id === id);
-  console.log("bookQuantity", bookQnty?.quantity);
+
   useEffect(() => {
-    dispatch(fetchBookDetails(id));
-  }, [id]);
+    dispatch(fetchBookDetails({ id, searchFilter }));
+  }, [id, searchFilter, dispatch]);
+
   useEffect(() => {
     if (loading === "fulfilled") {
       setBookDetail(bookDetails);
       setQuantity(bookQnty?.quantity ?? 1);
     }
-  }, [loading]);
+    fetchSuggestedBook();
+  }, [loading, bookDetails, bookQnty]);
+
+  const fetchSuggestedBook = async () => {
+    try {
+      const response = await axios.get(
+        `https://api.asianpublisher.in/api/BookApi/${bookDetails.relatedBooks}`
+      );
+      console.log("first123456789", bookDetails.relatedBooks);
+      setSuggestedBook(response.data);
+    } catch (error) {
+      const errorMessage =
+        error.response?.data?.message ||
+        error.message ||
+        "Error During Fetching Data";
+      error(`Error During Fetching Data: ${errorMessage}`);
+    }
+  };
+
+  useEffect(() => {
+    if (bookDetail.name) {
+      setSearchFilter(bookDetail.name);
+    }
+  }, [bookDetail]);
 
   function handleUpdateCart(book) {
     const {
@@ -63,7 +93,11 @@ function BookDetails() {
         },
       })
     );
+    setAddedToCart(true);
   }
+  const handleGoToCart = () => {
+    window.location.href = "/cart";
+  };
   return (
     <>
       <Header />
@@ -125,13 +159,10 @@ function BookDetails() {
       >
         <div
           className="container-fluid"
-          style={{ padding: "0px", margin: "0px" }}
+          style={{ padding: "20px", margin: "0px" }}
         >
-          <div className="col-lg-2" style={{ float: "left" }}>
-            &nbsp;
-          </div>
           <div
-            className="col-lg-8"
+            className="col-lg-6"
             style={{
               float: "left",
               "box-shadow": "2px 2px 4px rgba(0, 0, 0, 0.2)",
@@ -164,7 +195,9 @@ function BookDetails() {
                     <td>Test</td>
                   </tr>
                 </tbody>
-              </table> */}
+              </table> */}{" "}
+              <br />
+              <br />
               <center>
                 <div className="quantity" style={{ width: "50%" }}>
                   {/* Button to decrease quantity */}
@@ -187,8 +220,12 @@ function BookDetails() {
                     min={1}
                     max={1000}
                     onChange={(e) => {
-                      const value = parseInt(e.target.value);
-                      setQuantity(isNaN(value) ? null : value);
+                      let val = e.target.value;
+                      if (val.length > 1 && val.startsWith("0")) {
+                        val = val.replace(/^0+/, "");
+                      }
+                      const value = parseInt(val);
+                      setQuantity(isNaN(value) ? 1 : value < 1 ? 1 : value);
                     }}
                     style={{ width: "100%" }}
                   />
@@ -209,23 +246,155 @@ function BookDetails() {
               <br />
               <br />
               <center>
-                <a
-                  onClick={() => handleUpdateCart(bookDetail)}
-                  style={{
-                    "-webkit-text-decoration": "none",
-                    "text-decoration": "none",
-                    "background-color": "#d82028",
-                    color: "#fff",
-                    padding: "10px 50px 10px 50px",
-                    "margin-top": "20px",
-                    "border-radius": "10px",
-                  }}
-                >
-                  ADD TO CART
-                </a>
+                {!addedToCart ? (
+                  <a
+                    onClick={() => handleUpdateCart(bookDetail)}
+                    style={{
+                      textDecoration: "none",
+                      backgroundColor: "#d82028",
+                      color: "#fff",
+                      padding: "10px 50px",
+                      marginTop: "20px",
+                      borderRadius: "10px",
+                      cursor: "pointer",
+                      zoom: "70%",
+                    }}
+                  >
+                    ADD TO CART
+                  </a>
+                ) : (
+                  <>
+                    <button
+                      onClick={handleGoToCart}
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#d82028",
+                        color: "#fff",
+                        padding: "10px 50px",
+                        marginTop: "20px",
+                        borderRadius: "10px",
+                        cursor: "pointer",
+                        display: "inline-block",
+                        marginRight: "10px",
+                        border: "none",
+                        zoom: "70%",
+                      }}
+                    >
+                      GO TO CART
+                    </button>
+                    <a
+                      href="/shop"
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#000",
+                        color: "#fff",
+                        padding: "10px 50px",
+                        marginTop: "20px",
+                        borderRadius: "10px",
+                        cursor: "pointer",
+                        display: "inline-block",
+                        border: "none",
+                        zoom: "70%",
+                      }}
+                    >
+                      CONTINUE SHOPPING
+                    </a>
+                  </>
+                )}
               </center>
             </div>
           </div>
+          {bookDetails.relatedBooks !== "" ? (
+            <>
+              <div
+                className="col-lg-6"
+                style={{
+                  float: "left",
+                  // "box-shadow": "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                  padding: "0px",
+                }}
+              >
+                <div className="col-lg-3" style={{ float: "left" }}>
+                  &nbsp;
+                </div>
+                <div className="col-lg-7" style={{ float: "left" }}>
+                  <center>
+                    <h4>
+                      <span style={{ color: "#D82028" }}>SUGGESTED</span> BOOK
+                    </h4>
+                  </center>
+                  <center>
+                    <br></br>
+                    <div
+                      className="book"
+                      style={{ width: "18vw", height: "45vh" }}
+                    >
+                      <img
+                        className="book-cover"
+                        src={`${REACT_APP_URL}/Image/${SuggestedBook.image}`}
+                        alt="Book Cover"
+                        onClick={() => {
+                          navigate(`/BookDetails/${SuggestedBook.id}`);
+                        }}
+                      />
+                      <div className="book-inside" />
+                    </div>
+                  </center>
+                  <p
+                    style={{
+                      "font-size": "15px",
+                      "-webkit-text-align": "center",
+                      "text-align": "center",
+                      "margin-top": "15px",
+                      "font-weight": "700",
+                    }}
+                  >
+                    <span style={{ "font-size": "12px", "font-weight": "500" }}>
+                      ISBN No. {SuggestedBook?.iSBN}&nbsp;&nbsp;
+                    </span>
+                    <br />
+                    {SuggestedBook?.name}
+                    <br />
+
+                    <span
+                      style={{
+                        color: "red",
+                        "font-size": "16px",
+                        "font-weight": "600",
+                      }}
+                    >
+                      Rs. {SuggestedBook?.mRP}
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </>
+          ) : (
+            <div
+              className="col-lg-6"
+              style={{
+                float: "left",
+                // "box-shadow": "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                padding: "0px",
+              }}
+            >
+              <div className="col-lg-2" style={{ float: "left" }}>
+                &nbsp;
+              </div>
+              <div className="col-lg-8" style={{ float: "left" }}>
+                <center>
+                  <h4>
+                    <span style={{ color: "#D82028" }}>SUGGESTED</span> BOOK
+                  </h4>
+                </center>
+                <br></br>
+                <br></br>
+                <div className="alert alert-danger" role="alert">
+                  No suggested book available on this product !
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
       <div className="row" style={{ clear: "both", height: "1vh" }} />
