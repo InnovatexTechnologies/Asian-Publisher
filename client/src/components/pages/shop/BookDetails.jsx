@@ -157,9 +157,10 @@ function BookDetails() {
           clear: "both",
         }}
       >
+        {bookDetails.relatedBooks !== "" ? (
         <div
           className="container-fluid"
-          style={{ padding: "20px", margin: "0px" }}
+          style={{ padding: "20px 0px 20px 100px", margin: "0px" }}
         >
           <div
             className="col-lg-6"
@@ -304,98 +305,226 @@ function BookDetails() {
               </center>
             </div>
           </div>
-          {bookDetails.relatedBooks !== "" ? (
-            <>
-              <div
-                className="col-lg-6"
+
+          <div
+            className="col-lg-6"
+            style={{
+              float: "left",
+              // "box-shadow": "2px 2px 4px rgba(0, 0, 0, 0.2)",
+              padding: "0px",
+            }}
+          >
+            <div className="col-lg-3" style={{ float: "left" }}>
+              &nbsp;
+            </div>
+            <div className="col-lg-7" style={{ float: "left" }}>
+              <center>
+                <h4>
+                  <span style={{ color: "#D82028" }}>SUGGESTED</span> BOOK
+                </h4>
+              </center>
+              <center>
+                <br></br>
+                <div className="book" style={{ width: "18vw", height: "45vh" }}>
+                  <img
+                    className="book-cover"
+                    src={`${REACT_APP_URL}/Image/${SuggestedBook.image}`}
+                    alt="Book Cover"
+                    onClick={() => {
+                      navigate(`/BookDetails/${SuggestedBook.id}`);
+                    }}
+                  />
+                  <div className="book-inside" />
+                </div>
+              </center>
+              <p
                 style={{
-                  float: "left",
-                  // "box-shadow": "2px 2px 4px rgba(0, 0, 0, 0.2)",
-                  padding: "0px",
+                  "font-size": "15px",
+                  "-webkit-text-align": "center",
+                  "text-align": "center",
+                  "margin-top": "15px",
+                  "font-weight": "700",
                 }}
               >
-                <div className="col-lg-3" style={{ float: "left" }}>
-                  &nbsp;
-                </div>
-                <div className="col-lg-7" style={{ float: "left" }}>
-                  <center>
-                    <h4>
-                      <span style={{ color: "#D82028" }}>SUGGESTED</span> BOOK
-                    </h4>
-                  </center>
-                  <center>
-                    <br></br>
-                    <div
-                      className="book"
-                      style={{ width: "18vw", height: "45vh" }}
-                    >
-                      <img
-                        className="book-cover"
-                        src={`${REACT_APP_URL}/Image/${SuggestedBook.image}`}
-                        alt="Book Cover"
-                        onClick={() => {
-                          navigate(`/BookDetails/${SuggestedBook.id}`);
-                        }}
-                      />
-                      <div className="book-inside" />
-                    </div>
-                  </center>
-                  <p
-                    style={{
-                      "font-size": "15px",
-                      "-webkit-text-align": "center",
-                      "text-align": "center",
-                      "margin-top": "15px",
-                      "font-weight": "700",
-                    }}
-                  >
-                    <span style={{ "font-size": "12px", "font-weight": "500" }}>
-                      ISBN No. {SuggestedBook?.iSBN}&nbsp;&nbsp;
-                    </span>
-                    <br />
-                    {SuggestedBook?.name}
-                    <br />
+                <span style={{ "font-size": "12px", "font-weight": "500" }}>
+                  ISBN No. {SuggestedBook?.iSBN}&nbsp;&nbsp;
+                </span>
+                <br />
+                {SuggestedBook?.name}
+                <br />
 
-                    <span
-                      style={{
-                        color: "red",
-                        "font-size": "16px",
-                        "font-weight": "600",
-                      }}
-                    >
-                      Rs. {SuggestedBook?.mRP}
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </>
-          ) : (
+                <span
+                  style={{
+                    color: "red",
+                    "font-size": "16px",
+                    "font-weight": "600",
+                  }}
+                >
+                  Rs. {SuggestedBook?.mRP}
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        ) : (
+          <div
+          className="container-fluid"
+          style={{ padding: "20px", margin: "0px" }}
+        >
+          <div
+            className="col-lg-2"
+            style={{
+              float: "left",
+              padding: "0px",
+            }}
+          >&nbsp;</div>
+          <div
+            className="col-lg-8"
+            style={{
+              float: "left",
+              "box-shadow": "2px 2px 4px rgba(0, 0, 0, 0.2)",
+              padding: "0px",
+            }}
+          >
+            <div className="col-lg-6" style={{ float: "left", padding: "0px" }}>
+              <img
+                src={`${REACT_APP_URL}/Image/${bookDetail.image}`}
+                style={{ width: "100%" }}
+              />
+            </div>
             <div
               className="col-lg-6"
-              style={{
-                float: "left",
-                // "box-shadow": "2px 2px 4px rgba(0, 0, 0, 0.2)",
-                padding: "0px",
-              }}
+              style={{ float: "left", padding: "50px" }}
             >
-              <div className="col-lg-2" style={{ float: "left" }}>
-                &nbsp;
-              </div>
-              <div className="col-lg-8" style={{ float: "left" }}>
-                <center>
-                  <h4>
-                    <span style={{ color: "#D82028" }}>SUGGESTED</span> BOOK
-                  </h4>
-                </center>
-                <br></br>
-                <br></br>
-                <div className="alert alert-danger" role="alert">
-                  No suggested book available on this product !
+              <h4 style={{ "font-weight": "600" }}>{bookDetail.name}</h4>
+              <h6>ISBN: {bookDetail.iSBN}</h6>
+              <p style={{ color: "red", "font-weight": "600" }}>
+                Rs. {bookDetail.mRP}{" "}
+              </p>
+              {/* <table classname="table table-spriped">
+                <tbody>
+                  <tr>
+                    <th>Sr. No.</th>
+                    <th>Category</th>
+                  </tr>
+                  <tr>
+                    <td>1.</td>
+                    <td>Test</td>
+                  </tr>
+                </tbody>
+              </table> */}{" "}
+              <br />
+              <br />
+              <center>
+                <div className="quantity" style={{ width: "50%" }}>
+                  {/* Button to decrease quantity */}
+                  <button
+                    className="minus"
+                    aria-label="Decrease"
+                    onClick={() =>
+                      setQuantity((prevQuantity) =>
+                        Math.max(parseInt(prevQuantity) - 1, 1)
+                      )
+                    }
+                  >
+                    −
+                  </button>
+                  {/* Input for quantity */}
+                  <input
+                    type="number"
+                    className="input-box"
+                    value={bookQuantity}
+                    min={1}
+                    max={1000}
+                    onChange={(e) => {
+                      let val = e.target.value;
+                      if (val.length > 1 && val.startsWith("0")) {
+                        val = val.replace(/^0+/, "");
+                      }
+                      const value = parseInt(val);
+                      setQuantity(isNaN(value) ? 1 : value < 1 ? 1 : value);
+                    }}
+                    style={{ width: "100%" }}
+                  />
+                  {/* Button to increase quantity */}
+                  <button
+                    className="plus"
+                    aria-label="Increase"
+                    onClick={() =>
+                      setQuantity((prevQuantity) =>
+                        Math.min(parseInt(prevQuantity) + 1, 1000)
+                      )
+                    }
+                  >
+                    +
+                  </button>
                 </div>
-              </div>
+              </center>
+              <br />
+              <br />
+              <center>
+                {!addedToCart ? (
+                  <a
+                    onClick={() => handleUpdateCart(bookDetail)}
+                    style={{
+                      textDecoration: "none",
+                      backgroundColor: "#d82028",
+                      color: "#fff",
+                      padding: "10px 50px",
+                      marginTop: "20px",
+                      borderRadius: "10px",
+                      cursor: "pointer",
+                      zoom: "70%",
+                    }}
+                  >
+                    ADD TO CART
+                  </a>
+                ) : (
+                  <>
+                    <button
+                      onClick={handleGoToCart}
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#d82028",
+                        color: "#fff",
+                        padding: "10px 50px",
+                        marginTop: "20px",
+                        borderRadius: "10px",
+                        cursor: "pointer",
+                        display: "inline-block",
+                        marginRight: "10px",
+                        border: "none",
+                        zoom: "70%",
+                      }}
+                    >
+                      GO TO CART
+                    </button>
+                    <a
+                      href="/shop"
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#000",
+                        color: "#fff",
+                        padding: "10px 50px",
+                        marginTop: "20px",
+                        borderRadius: "10px",
+                        cursor: "pointer",
+                        display: "inline-block",
+                        border: "none",
+                        zoom: "70%",
+                      }}
+                    >
+                      CONTINUE SHOPPING
+                    </a>
+                  </>
+                )}
+              </center>
             </div>
-          )}
+          </div>
+
         </div>
+
+        )}
       </div>
       <div className="row" style={{ clear: "both", height: "1vh" }} />
       <div classname="row" style={{ padding: "30px" }}>
