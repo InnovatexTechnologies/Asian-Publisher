@@ -76,6 +76,7 @@ namespace AsianPublisher.Controllers
             {
                 ViewBag.url = url;
                 ViewBag.Languages = Language.Get(Utility.FillStyle.AllProperties);
+                ViewBag.Books = Book.Get(Utility.FillStyle.AllProperties);
                 return View(new Book());
             }
             catch (Exception ex)
@@ -104,6 +105,7 @@ namespace AsianPublisher.Controllers
             Book model = Book.GetById(id, Utility.FillStyle.WithBasicNav);
             ViewBag.url = url;
             ViewBag.Languages = Language.Get(Utility.FillStyle.AllProperties);
+            ViewBag.Books = Book.Get(Utility.FillStyle.AllProperties);
             if (model == null)
             {
                 return NotFound(); // Return 404 Not Found if the record is not found

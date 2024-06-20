@@ -57,6 +57,23 @@
                 <label class="control-label">Image</label>
                 <input name="imageFile" type="file" id="image" value="@Model.image" class="form-control" />
             </div>
+            <div class="form-group">
+                <label class="control-label">Related Books</label>
+                <select name="relatedBooks" id="relatedBooks" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.Books)
+                    {
+                        @if (Model.relatedBooks == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
             <input name="url" hidden value="@ViewBag.url" />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

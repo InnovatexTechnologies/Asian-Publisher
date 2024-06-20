@@ -20,6 +20,7 @@ namespace AsianPublisher.Models
         public bool isFeatured { get; set; }
         public Language? languageNav { get; set; }
         public string image { get; set; } = "";
+        public string relatedBooks { get; set; } = "";
         public string samplePdf { get; set; } = "";
         public List<Author>? authors { get; set; }
         public List<CourseSemester>? courseSemesters { get; set; }
@@ -315,7 +316,7 @@ namespace AsianPublisher.Models
                                 }
                             }
                         }
-                        string sql = "INSERT INTO Books (id, numId, idPrefix, name, mRP, bookCode, iSBN, languageId, samplePdf, image, isFeatured,description) VALUES (@id, @numId, @idPrefix, @name, @mRP, @bookCode, @iSBN, @languageId, @samplePdf , @image, @isFeatured,@description)";
+                        string sql = "INSERT INTO Books (id, numId, idPrefix, name, mRP, bookCode, iSBN, languageId, samplePdf, image, isFeatured,description,relatedBooks) VALUES (@id, @numId, @idPrefix, @name, @mRP, @bookCode, @iSBN, @languageId, @samplePdf , @image, @isFeatured,@description,@relatedBooks)";
                         int affectedRows = db.Execute(sql, this, transaction);
                         transaction.Commit();
                         return true;
@@ -380,7 +381,7 @@ namespace AsianPublisher.Models
                                 }
                             }
                         }
-                        string sql = "UPDATE Books SET numId = @numId, idPrefix = @idPrefix, name = @name, mRP = @mRP, bookCode = @bookCode, iSBN = @iSBN, languageId = @languageId, samplePdf = @samplePdf, image = @image,isFeatured=@isFeatured,description=@description WHERE id = @id;";
+                        string sql = "UPDATE Books SET numId = @numId, idPrefix = @idPrefix, name = @name, mRP = @mRP, bookCode = @bookCode, iSBN = @iSBN, languageId = @languageId, samplePdf = @samplePdf, image = @image,isFeatured=@isFeatured,description=@description,relatedBooks=@relatedBooks WHERE id = @id;";
                         int affectedRows = db.Execute(sql, this, transaction);
                         transaction.Commit();
                         return true;
