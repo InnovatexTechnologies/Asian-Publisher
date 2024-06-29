@@ -398,7 +398,7 @@ function Checkout() {
                   >
                     <label>
                       <input type="checkbox" required /> &nbsp;&nbsp; I have
-                      accepted all terms and conditions
+                      accepted all <a href="/TermsandCondition" style={{color:"#000"}} target="_blank">terms and conditions</a>
                     </label>
                   </div>
 
