@@ -44,12 +44,18 @@ export const fetchBooks = createAsyncThunk(
 
 export const fetchBookDetails = createAsyncThunk(
   "book/fetchBookDetails",
-  async (id) => {
+  async ({ id, searchFilter = "" }) => {
     try {
       const response = await axios.get(
-        `https://api.asianpublisher.in/api/BookApi/${id}`
+        `https://api.asianpublisher.in/api/BookApi/${id}`,
+        {
+          headers: {
+            search: searchFilter,
+          },
+        }
       );
-      // console.log("response", response);
+      console.log("response12345600000", searchFilter);
+      console.log("response1234567", response);
       return response.data;
     } catch (error) {
       toastError(error?.response?.data?.message);
