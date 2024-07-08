@@ -20,6 +20,24 @@
                 <input name="name" id="name" value="@Model.name" class="form-control" />
             </div>
             <div class="form-group">
+                <label class="control-label">Related Books</label>
+                <select name="relatedBooks" id="relatedBooks" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.Books)
+                    {
+                        @if (Model.relatedBooks == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
                 <label class="control-label">MRP</label>
                 <input name="mRP" id="mRP" value="@Model.mRP" class="form-control" />
             </div>
@@ -72,24 +90,7 @@
                 <input name="imageFile" type="file" id="image" class="form-control" />
                 <input hidden asp-for="image" class="form-control" />
             </div>
-            <div class="form-group">
-                <label class="control-label">Related Books</label>
-                <select name="relatedBooks" id="relatedBooks" class="form-control">
-                    <option value="">--Select--</option>
-                    @foreach (var obj in ViewBag.Books)
-                    {
-                        @if (Model.relatedBooks == obj.id)
-                        {
-                            <option value="@obj.id" selected>@obj.name</option>
-                        }
-                        else
-                        {
-                            <option value="@obj.id">@obj.name</option>
-                        }
-                    }
-                </select>
-            </div>
-
+           
 
             <input name="url" hidden value="@ViewBag.url" />
             <div class="form-group">

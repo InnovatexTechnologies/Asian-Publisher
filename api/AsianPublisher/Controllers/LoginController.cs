@@ -39,45 +39,48 @@ namespace AsianPublisher.Controllers
         {
             //Login(user);
             //return Ok();
-
-            using (IDbConnection db = new SQLiteConnection(Utility.ConnString))
-            {
-                user = db.Query<User>("select * from Users where email=@email and password = @password", user).FirstOrDefault();
-
-                IActionResult response = Unauthorized();
-                var _user = AuthenticateUser(user);
-                if (_user != null)
-                {
-                    var token = GenerateToken(_user);
-                    response = Ok(new { token = token , UserId = user.id});
-                    if (response is OkObjectResult okObjectResult)
-                    {
-                        string jsonResponse = JsonConvert.SerializeObject(okObjectResult.Value);
-                        var jsonObject = JsonConvert.DeserializeObject<dynamic>(jsonResponse);
-                        Utility.response = jsonObject.token;
-                    }
-                }
-                //return response;
-                return RedirectToAction("Index", "Home");
-            }
+           
             //using (IDbConnection db = new SQLiteConnection(Utility.ConnString))
             //{
-            //	user = db.Query<LoginUser>("select * from LoginUsers where name=@name and password = @password", user).FirstOrDefault();
+            //    user = db.Query<User>("select * from Users where email=@email and password = @password", user).FirstOrDefault();
 
-            //	if (user != null)
-            //	{
-            //		ClaimsIdentity identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
-            //		identity.AddClaim(new Claim(ClaimTypes.Name, user.name));
-
-            //		HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity));
-            //		return RedirectToAction("Index", "Home");
-            //	}
-            //	else
-            //	{
-            //		ViewBag.u = "Invalid Username and Password";
-            //		return View();
-            //	}
+            //    IActionResult response = Unauthorized();
+            //    var _user = AuthenticateUser(user);
+            //    if (_user != null)
+            //    {
+            //        var token = GenerateToken(_user);
+            //        response = Ok(new { token = token , UserId = user.id});
+            //        if (response is OkObjectResult okObjectResult)
+            //        {
+            //            string jsonResponse = JsonConvert.SerializeObject(okObjectResult.Value);
+            //            var jsonObject = JsonConvert.DeserializeObject<dynamic>(jsonResponse);
+            //            Utility.response = jsonObject.token;
+            //        }
+            //    }
+            //    //return response;
+            //    return RedirectToAction("Index", "Home");
             //}
+            using (IDbConnection db = new SQLiteConnection(Utility.ConnString))
+            {
+                LoginUser loginuser = db.Query<LoginUser>("select * from LoginUsers").FirstOrDefault();
+                if (user.name == loginuser.name && user.password == loginuser.password)
+                {
+                    if (user != null)
+                    {
+                        ClaimsIdentity identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
+                        identity.AddClaim(new Claim(ClaimTypes.Name, user.name));
+
+                        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity));
+                        return RedirectToAction("Index", "Home");
+                    }
+                }
+                else
+                {
+                    ViewBag.u = "Invalid Username and Password";
+                    return View();
+                }
+                return View();
+            }
         }
 
         private User AuthenticateUser(User user)
