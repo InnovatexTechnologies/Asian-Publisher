@@ -211,6 +211,8 @@ namespace AsianPublisher.Models
                 {
                     try
                     {
+                        string sqln = "DELETE FROM OrderMetas WHERE orderId = @id;";
+                        int affectedRowsn = db.Execute(sqln, new { orderId = this.id }, transaction);
                         string sql = "DELETE FROM Orders WHERE id = @id;";
                         int affectedRows = db.Execute(sql, new { id = this.id }, transaction);
                         transaction.Commit();
