@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uehPhD5e3hj9HLjc+EuXI2yLf0y+8S6BXAIekPSGxzk=",
+  "Hash": "+365iTxwRUA2yGaUkpfHyQByyWAz/60w3Seyce5Z+y0=",
   "Source": "AsianPublisher",
   "BasePath": "_content/AsianPublisher",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AsianPublisher\\wwwroot",
       "Source": "AsianPublisher",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AsianPublisher.styles.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AsianPublisher.styles.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "AsianPublisher.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AsianPublisher.styles.css"
+      "OriginalItemSpec": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AsianPublisher.styles.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AsianPublisher.bundle.scp.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AsianPublisher.bundle.scp.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "AsianPublisher.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AsianPublisher.bundle.scp.css"
+      "OriginalItemSpec": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AsianPublisher.bundle.scp.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\addtocart.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\addtocart.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/addtocart.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\addtocart.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\adminpanelcss.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\adminpanelcss.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/adminpanelcss.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\adminpanelcss.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\AuthorStyle.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\AuthorStyle.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/AuthorStyle.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\AuthorStyle.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\buttoneffect.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\buttoneffect.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/buttoneffect.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\buttoneffect.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\card.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\card.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/card.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\card.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\cardsingle.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\cardsingle.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/cardsingle.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\cardsingle.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\DigiStyle.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\DigiStyle.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/DigiStyle.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\DigiStyle.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\digistyle1.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\digistyle1.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/digistyle1.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\digistyle1.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\js\\getdata.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\js\\getdata.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/js/getdata.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\js\\getdata.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\js\\jquery.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\js\\jquery.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/js/jquery.min.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\js\\jquery.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\init-tinymce.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\init-tinymce.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/init-tinymce.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\init-tinymce.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\jquery.tinymce.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\jquery.tinymce.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/jquery.tinymce.min.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\jquery.tinymce.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\langs\\readme.md",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\langs\\readme.md",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/langs/readme.md",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\langs\\readme.md"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\license.txt",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\license.txt",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/license.txt",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\license.txt"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\advlist\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/advlist/plugin.min.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\advlist\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\anchor\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/anchor/plugin.min.js",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\anchor\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autolink\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/autolink/plugin.min.js",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autolink\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autoresize\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/autoresize/plugin.min.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autoresize\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autosave\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/autosave/plugin.min.js",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\autosave\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\bbcode\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/bbcode/plugin.min.js",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\bbcode\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\charmap\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/charmap/plugin.min.js",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\charmap\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\code\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\code\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/code/plugin.min.js",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\code\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\css\\prism.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\css\\prism.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/codesample/css/prism.css",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\css\\prism.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/codesample/plugin.min.js",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\codesample\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\colorpicker\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/colorpicker/plugin.min.js",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\colorpicker\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\contextmenu\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/contextmenu/plugin.min.js",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\contextmenu\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\directionality\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/directionality/plugin.min.js",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\directionality\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-cool.gif",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-cry.gif",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-embarassed.gif",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-frown.gif",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-innocent.gif",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-kiss.gif",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-laughing.gif",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-money-mouth.gif",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-sealed.gif",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-smile.gif",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-surprised.gif",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-tongue-out.gif",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-undecided.gif",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-wink.gif",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/img/smiley-yell.gif",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/emoticons/plugin.min.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\emoticons\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\dialog.html",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\dialog.html",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/example/dialog.html",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\dialog.html"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/example/plugin.min.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example_dependency\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example_dependency\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/example_dependency/plugin.min.js",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\example_dependency\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullpage\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/fullpage/plugin.min.js",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullpage\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullscreen\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/fullscreen/plugin.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\fullscreen\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\hr\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\hr\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/hr/plugin.min.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\hr\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\image\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\image\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/image/plugin.min.js",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\image\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\imagetools\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/imagetools/plugin.min.js",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\imagetools\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\importcss\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/importcss/plugin.min.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\importcss\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/insertdatetime/plugin.min.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\layer\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\layer\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/layer/plugin.min.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\layer\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/legacyoutput/plugin.min.js",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\link\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\link\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/link/plugin.min.js",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\link\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\lists\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\lists\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/lists/plugin.min.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\lists\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\moxieplayer.swf",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\moxieplayer.swf",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/media/moxieplayer.swf",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\moxieplayer.swf"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/media/plugin.min.js",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\media\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/nonbreaking/plugin.min.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\noneditable\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/noneditable/plugin.min.js",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\noneditable\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\pagebreak\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/pagebreak/plugin.min.js",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\pagebreak\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\paste\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\paste\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/paste/plugin.min.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\paste\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\preview\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\preview\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/preview/plugin.min.js",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\preview\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\print\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\print\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/print/plugin.min.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\print\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\save\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\save\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/save/plugin.min.js",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\save\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\searchreplace\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/searchreplace/plugin.min.js",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\searchreplace\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\spellchecker\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/spellchecker/plugin.min.js",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\spellchecker\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\tabfocus\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/tabfocus/plugin.min.js",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\tabfocus\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\table\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\table\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/table/plugin.min.js",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\table\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\template\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\template\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/template/plugin.min.js",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\template\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textcolor\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/textcolor/plugin.min.js",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textcolor\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textpattern\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/textpattern/plugin.min.js",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\textpattern\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/visualblocks/css/visualblocks.css",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/visualblocks/plugin.min.js",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualblocks\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualchars\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/visualchars/plugin.min.js",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\visualchars\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\wordcount\\plugin.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/plugins/wordcount/plugin.min.js",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\plugins\\wordcount\\plugin.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.inline.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.inline.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/content.inline.min.css",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.inline.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/content.min.css",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\content.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/fonts/tinymce.eot",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/fonts/tinymce.svg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/fonts/tinymce.ttf",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/fonts/tinymce.woff",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/fonts/tinymce-small.eot",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/fonts/tinymce-small.svg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/fonts/tinymce-small.ttf",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/fonts/tinymce-small.woff",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\anchor.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\anchor.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/img/anchor.gif",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\anchor.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\loader.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\loader.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/img/loader.gif",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\loader.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\object.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\object.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/img/object.gif",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\object.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\trans.gif",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\trans.gif",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/img/trans.gif",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\img\\trans.gif"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.ie7.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.ie7.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/skin.ie7.min.css",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.ie7.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/skins/lightgray/skin.min.css",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\skins\\lightgray\\skin.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\themes\\modern\\theme.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\themes\\modern\\theme.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/themes/modern/theme.min.js",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\themes\\modern\\theme.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\tinymce.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\tinymce.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/EditorWithImage/plugin/tinymce/tinymce.min.js",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\EditorWithImage\\plugin\\tinymce\\tinymce.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\fotterstrip.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\fotterstrip.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/fotterstrip.css",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\fotterstrip.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\PagedList.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\PagedList.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/PagedList.css",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\PagedList.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.intellisense.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.intellisense.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/script/jquery-1.8.2.intellisense.js",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\script\\jquery-1.8.2.intellisense.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/script/jquery-1.8.2.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\script\\jquery-1.8.2.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\script\\jquery-1.8.2.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/script/jquery-1.8.2.min.js",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\script\\jquery-1.8.2.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\Search.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\Search.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/Search.css",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\Search.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\Site.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\Site.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/Site.css",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\Site.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\team.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\team.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/team.css",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\team.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\themes\\base\\jquery-ui.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\themes\\base\\jquery-ui.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/themes/base/jquery-ui.css",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\themes\\base\\jquery-ui.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\Content\\themes\\base\\jquery-ui.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Content\\themes\\base\\jquery-ui.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "Content/themes/base/jquery-ui.min.css",
       "AssetKind": "All",
@@ -2069,10 +2069,29 @@
       "OriginalItemSpec": "wwwroot\\Content\\themes\\base\\jquery-ui.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\css\\site.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\css\\login.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
+      "BasePath": "_content/AsianPublisher",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\css\\site.css",
+      "SourceId": "AsianPublisher",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2088,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\favicon.ico",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\favicon.ico",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2107,10 +2126,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\js\\jquery-ui-1.13.1.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Image\\About.png",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
+      "BasePath": "_content/AsianPublisher",
+      "RelativePath": "Image/About.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\About.png"
+    },
+    {
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\Image\\AsianLogoText.jpeg",
+      "SourceId": "AsianPublisher",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
+      "BasePath": "_content/AsianPublisher",
+      "RelativePath": "Image/AsianLogoText.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\AsianLogoText.jpeg"
+    },
+    {
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\js\\jquery-ui-1.13.1.js",
+      "SourceId": "AsianPublisher",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "js/jquery-ui-1.13.1.js",
       "AssetKind": "All",
@@ -2126,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-ui-1.13.1.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\js\\jquery-ui-1.13.1.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\js\\jquery-ui-1.13.1.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "js/jquery-ui-1.13.1.min.js",
       "AssetKind": "All",
@@ -2145,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-ui-1.13.1.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\js\\site.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\js\\site.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2164,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2183,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2202,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2221,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2240,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2259,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2278,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2297,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2316,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2335,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2354,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2373,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2392,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2411,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2430,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2449,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2468,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2487,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2506,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2525,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2544,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2563,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2582,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2601,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2620,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2639,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2658,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2677,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2696,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2715,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2734,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2753,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2772,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2791,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2810,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2829,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2848,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2867,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2886,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2905,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2924,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2943,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2962,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2981,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3000,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3019,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3038,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3057,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3076,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3095,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3114,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3133,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3152,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3171,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3190,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3209,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3228,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AsianPublisher",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\TeamA\\Akshi\\Asian-Publisher\\api\\AsianPublisher\\wwwroot\\",
+      "ContentRoot": "D:\\InnovateXProjects\\asian-publisher-new-master\\api\\AsianPublisher\\wwwroot\\",
       "BasePath": "_content/AsianPublisher",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

@@ -7,63 +7,70 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="background-color:#D82E34 !important;">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AsianPublisher</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                                Masters
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Course" asp-action="Index">Course</a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="AcademicYear" asp-action="Index">Academic Year</a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="SemesterCategory" asp-action="Index">Semester Category</a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Semester" asp-action="Index">Semester</a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Language" asp-action="Index">Language</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                                Books
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Author" asp-action="Index">Author</a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="Index">Book</a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Catalogue" asp-action="Index">Catalogue</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="Index">Order</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="LoginUser" asp-action="LogOut">Logout</a>
-                        </li>
-                    </ul>
+                <div class="col-lg-8" style="float:left;">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color:#fff; font-family: Macondo, cursive;">Asian Publisher</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-lg-4" style="float:left;">
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index" style="color:#fff !important;">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" style="color:#fff !important;" aria-expanded="false">
+                                    Masters
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Course" asp-action="Index">Course</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="AcademicYear" asp-action="Index">Academic Year</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="SemesterCategory" asp-action="Index">Semester Category</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Semester" asp-action="Index">Semester</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Language" asp-action="Index">Language</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" style="color:#fff !important;" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Books
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Author" asp-action="Index">Author</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="Index">Book</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Catalogue" asp-action="Index">Catalogue</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="Index" style="color:#fff !important;">Order</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="LoginUser" asp-action="LogOut" style="color:#fff !important;">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted" style="position:absolute; bottom:0px; width:100vw; text-align:center; padding:10px 0px;">
         <div class="container">
-            &copy; 2024 - AsianPublisher - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            Designed & Developed By Marwari Software
         </div>
     </footer>
 

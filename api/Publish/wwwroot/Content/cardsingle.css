@@ -1,0 +1,216 @@
+
+
+.shopcardsingle {
+    position: relative;
+    width: 450px;
+    height: 550px;
+    background-color: white;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.201);
+    transition: 1s;
+}
+
+    .shopcardsingle .shopdetailssingle {
+        
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: auto;
+        height: 60%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.shopcardsingle .shopdetailssingle .shopcontentsingle {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.shopcardsingle .shopdetailssingle .shopcontentsingle h4 {
+    text-align: left;
+    font-weight: 700;
+    color: black;
+    line-height: 1em;
+}
+.shopcardsingle .shopdetailssingle .shopcontentsingle p {
+    text-align: left;
+    font-weight: 500;
+    color: black;
+    line-height: 1em;
+}
+.shopcardsingle .shopdetailssingle .shopcontentsingle a {
+    text-align: left;
+    
+}
+
+.shopcardsingle .shopdetailssingle .shopcontentsingle h4 span {
+    color: red;
+
+}
+
+.shopcardsingle .shopdetailssingle .shopcontentsingle .shopsocialiconssingle {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+}
+
+.shopcardsingle .shopdetailssingle .shopcontentsingle .shopsocialiconssingle a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    color: #fff;
+    font-size: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.shopcardsingle .shopimgBoxsingle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: 1s;
+    z-index: 1;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.201);
+}
+.shopcardsingle{
+    transform: translateX(50%);
+}
+.shopcardsingle .shopimgBoxsingle {
+    transform: rotateY(-180deg);
+}
+
+.shopcardsingle .shopimgBoxsingle img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+@media screen and (max-width: 990px) {
+
+    .shopcardsingle {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        transform: perspective(1000px);
+        box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.201);
+        transition: 1s;
+    }
+
+        .shopcardsingle .shopdetailssingle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .shopcardsingle .shopdetailssingle .shopcontentsingle {
+                display: flex;
+                justify-content: center;
+                align-items: left;
+                flex-direction: column;
+            }
+
+                .shopcardsingle .shopdetailssingle .shopcontentsingle h4 {
+                    text-align: left;
+                    font-weight: 700;
+                    color: black;
+                    line-height: 1em;
+                }
+
+                .shopcardsingle .shopdetailssingle .shopcontentsingle p {
+                    text-align: left;
+                    font-weight: 500;
+                    color: black;
+                    line-height: 1em;
+                }
+
+                .shopcardsingle .shopdetailssingle .shopcontentsingle a {
+                    text-align: left;
+                }
+
+                .shopcardsingle .shopdetailssingle .shopcontentsingle h4 span {
+                    color: red;
+                }
+
+                .shopcardsingle .shopdetailssingle .shopcontentsingle .shopsocialiconssingle {
+                    position: relative;
+                    display: flex;
+                    margin-top: 10px;
+                }
+
+                    .shopcardsingle .shopdetailssingle .shopcontentsingle .shopsocialiconssingle a {
+                        display: inline-block;
+                        width: 35px;
+                        height: 35px;
+                        background-color: #333;
+                        color: #fff;
+                        font-size: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
+                        margin: 5px;
+                        font-size: 18px;
+                        transition: 0.2s;
+                    }
+
+        .shopcardsingle .shopimgBoxsingle {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform-origin: left;
+            transform-style: preserve-3d;
+            transition: 1s;
+            z-index: 1;
+            box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.201);
+        }
+
+    .shopcardsingle {
+        transform: translateX(50%);
+    }
+
+        .shopcardsingle .shopimgBoxsingle {
+            transform: rotateY(-180deg);
+        }
+
+            .shopcardsingle .shopimgBoxsingle img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transform-style: preserve-3d;
+                backface-visibility: hidden;
+            }
+
+        .shopcardsingle .shopimgBoxsingle img:nth-child(2) {
+            transform: rotateY(180deg);
+        }
+
+}
+
+.shopcardsingle .shopimgBoxsingle img:nth-child(2){
+    transform: rotateY(180deg);
+}

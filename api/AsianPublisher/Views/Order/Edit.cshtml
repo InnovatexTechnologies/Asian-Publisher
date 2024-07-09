@@ -3,107 +3,98 @@
 @{
     ViewData["Title"] = "Edit";
 }
-
-<h1>Edit</h1>
-
-<h4>Order</h4>
+<h4>Edit Order</h4>
 <hr />
-<div class="row">
-    
-        <form asp-action="Edit" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input hidden asp-for="id" class="form-control" />
-            <input hidden asp-for="numId" class="form-control" />
-            <input hidden asp-for="idPrefix" class="form-control" />
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">Name</label>
-                <input name="name" id="name" value="@Model.name" class="form-control" />
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">Email</label>
-                <input name="email" id="email" value="@Model.email" class="form-control" />
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">Address</label>
-                <input name="address" id="address" value="@Model.address" class="form-control" />
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">City</label>
-                <input name="city" id="city" value="@Model.city" class="form-control" />
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">MobileNo</label>
-                <input name="mobileNo" id="mobileNo" value="@Model.mobileNo" class="form-control" />
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">State</label>
-                <input name="state" id="state" value="@Model.state" class="form-control" />
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">Country</label>
-                <input name="country" id="country" value="@Model.country" class="form-control" />
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">Pincode</label>
-                <input name="pincode" id="pincode" value="@Model.pincode" class="form-control" />
-            </div>
-            @* <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">IsDispatch</label>
-                @if (Model.isDispatch == 0)
+<form asp-action="Edit" enctype="multipart/form-data">
+    <div class="row">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input hidden asp-for="id" class="form-control" />
+        <input hidden asp-for="numId" class="form-control" />
+        <input hidden asp-for="idPrefix" class="form-control" />
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Name</label>
+            <input name="name" id="name" value="@Model.name" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Email</label>
+            <input name="email" id="email" value="@Model.email" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Address</label>
+            <input name="address" id="address" value="@Model.address" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">City</label>
+            <input name="city" id="city" value="@Model.city" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">MobileNo</label>
+            <input name="mobileNo" id="mobileNo" value="@Model.mobileNo" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">State</label>
+            <input name="state" id="state" value="@Model.state" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Country</label>
+            <input name="country" id="country" value="@Model.country" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Pincode</label>
+            <input name="pincode" id="pincode" value="@Model.pincode" class="form-control" />
+        </div>
+        @* <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
+        <label class="control-label">IsDispatch</label>
+        @if (Model.isDispatch == 0)
+        {
+        Model.isDispatchN = "Shipped";
+        }
+        else if (Model.isDispatch == 1)
+        {
+        Model.isDispatchN = "Dispatched";
+        }
+        else
+        {
+        Model.isDispatchN = "Cancelled";
+        }
+        <input name="isDispatch" id="isDispatch" value="@Model.isDispatchN" class="form-control" />
+        </div> *@
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">User</label>
+            <select name="userId" id="userId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Users)
                 {
-                    Model.isDispatchN = "Shipped";
-                }
-                else if (Model.isDispatch == 1)
-                {
-                    Model.isDispatchN = "Dispatched";
-                }
-                else
-                {
-                    Model.isDispatchN = "Cancelled";
-                }
-                <input name="isDispatch" id="isDispatch" value="@Model.isDispatchN" class="form-control" />
-            </div> *@
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">User</label>
-                <select name="userId" id="userId" class="form-control">
-                    <option value="">--Select--</option>
-                    @foreach (var obj in ViewBag.Users)
+                    @if (Model.userId == obj.id)
                     {
-                        @if (Model.userId == obj.id)
-                        {
-                            <option value="@obj.id" selected>@obj.name</option>
-                        }
-                        else
-                        {
-                            <option value="@obj.id">@obj.name</option>
-                        }
+                        <option value="@obj.id" selected>@obj.name</option>
                     }
-                </select>
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">Status</label>
-                <input name="status" id="status" value="@Model.status" class="form-control" />
-            </div>
-            <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">Date</label>
-                <input name="date" type="date" id="date" value="@Model.date.ToDate().ToString("yyyy-MM-dd")" required class="form-control" />
-            </div>
-            @* <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
-                <label class="control-label">Time</label>
-                <input name="time" type="date" id="time" value="@Model.time.ToString("HH:mm:ss")" required class="form-control" />
-            </div> *@
-            <input name="url" hidden value="@ViewBag.url" />
-            <div class="col-lg-3" style="float:left;width:32%;margin:20px">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-  
-</div>
-
-<div>
-    <a href="@ViewBag.url" style="cursor:pointer">Back to List</a>
-</div>
-
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Status</label>
+            <input name="status" id="status" value="@Model.status" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Date</label>
+            <input name="date" type="date" id="date" value="@Model.date.ToDate().ToString("yyyy-MM-dd")" required class="form-control" />
+        </div>
+        @* <div class="col-lg-3" style="float:left;width:32%;margin-right:10px">
+        <label class="control-label">Time</label>
+        <input name="time" type="date" id="time" value="@Model.time.ToString("HH:mm:ss")" required class="form-control" />
+        </div> *@
+        <input name="url" hidden value="@ViewBag.url" />
+        <div class="col-lg-4" style="float:left; padding-top:32px;">
+            <input type="submit" value="Save" class="btn-sm btn-primary" />
+            <a href="@ViewBag.url" class="btn-sm btn-danger" style="color:#fff !important">Back to List</a>
+        </div>
+    </div>
+</form>
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

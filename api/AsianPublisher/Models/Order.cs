@@ -51,8 +51,8 @@ namespace AsianPublisher.Models
         public string country { get; set; } = "";
         public string pincode { get; set; } = "";
         public List<OrderMeta>? orderMetas { get; set; } = new List<OrderMeta>();
+        public decimal TotalAmount { get; set; } = 0;
 
-        // Additional methods
         public static List<Order> Get(Utility.FillStyle fillStyle = Utility.FillStyle.AllProperties, Dictionary<string, string>? paramList = null)
         {
             using (IDbConnection db = new SQLiteConnection(Utility.ConnString))
@@ -63,41 +63,62 @@ namespace AsianPublisher.Models
                 {
                     paramList = new Dictionary<string, string>();
                 }
-                foreach (var obj in paramList)
+
+                // Default last 30 days date calculation
+                var currentDate = DateTime.Now;
+                var past30DaysDate = currentDate.AddDays(-30);
+
+                // Check and apply each filter if provided
+                if (paramList.ContainsKey("fromDate") && DateTime.TryParseExact(paramList["fromDate"], "yyyyMMdd", null, System.Globalization.DateTimeStyles.None, out DateTime fromDate))
                 {
-                    if (!string.IsNullOrEmpty(obj.Value))
-                    {
-                        if (obj.Key == "userId")
-                        {
-                            whereClause += " and Orders." + obj.Key + " = '" + obj.Value+"'";
-                        }
-                        else
-                        {
-                            whereClause += " and myBaseTable." + obj.Key + " = @" + obj.Key;
-                        }
-                    }
+                    whereClause += $" and Orders.date >= {fromDate:yyyyMMdd}";
                 }
+                else
+                {
+                    whereClause += $" and Orders.date >= {past30DaysDate:yyyyMMdd}";
+                }
+
+                if (paramList.ContainsKey("toDate") && DateTime.TryParseExact(paramList["toDate"], "yyyyMMdd", null, System.Globalization.DateTimeStyles.None, out DateTime toDate))
+                {
+                    whereClause += $" and Orders.date <= {toDate:yyyyMMdd}";
+                }
+                else
+                {
+                    whereClause += $" and Orders.date <= {currentDate:yyyyMMdd}";
+                }
+
+                if (paramList.ContainsKey("status") && int.TryParse(paramList["status"], out int status))
+                {
+                    whereClause += $" and Orders.status = {status}";
+                }
+
+                if (paramList.ContainsKey("isDispatch") && int.TryParse(paramList["isDispatch"], out int isDispatch))
+                {
+                    whereClause += $" and Orders.isDispatch = {isDispatch}";
+                }
+
                 string query = "";
                 if (fillStyle == Utility.FillStyle.Basic)
                 {
-                    query = "SELECT id,name from Orders";
+                    query = "SELECT id, name FROM Orders WHERE " + whereClause;
                     return db.Query<Order>(query).OrderBy(o => o.name).ToList();
                 }
                 else if (fillStyle == Utility.FillStyle.AllProperties)
                 {
-                    query = "SELECT * from Orders where " + whereClause;
+                    query = "SELECT Orders.*, SUM(OrderMetas.price * OrderMetas.quantity) AS TotalAmount FROM Orders LEFT JOIN OrderMetas ON Orders.id = OrderMetas.orderId WHERE " + whereClause + " GROUP BY Orders.id";
                     return db.Query<Order>(query).OrderBy(o => o.name).ToList();
                 }
                 else if (fillStyle == Utility.FillStyle.WithBasicNav)
                 {
-                    query = "SELECT myBaseTable.* from Orders myBaseTable where " + whereClause;
+                    query = "SELECT myBaseTable.* FROM Orders myBaseTable WHERE " + whereClause;
                     return db.Query<Order>(query, Utility.CreateDynamicObject(paramList)).OrderBy(o => o.name).ToList();
                 }
                 else
                 {
                     query = @"SELECT myBaseTable.*, O.*
-                FROM Orders myBaseTable
-                LEFT JOIN OrderMetas O ON myBaseTable.Id = O.OrderId where "+ whereClause;
+                      FROM Orders myBaseTable
+                      LEFT JOIN OrderMetas O ON myBaseTable.Id = O.OrderId
+                      WHERE " + whereClause;
 
                     var ordersDictionary = new Dictionary<string, Order>();
 
@@ -120,15 +141,14 @@ namespace AsianPublisher.Models
 
                             return currentOrder;
                         })
-                        //splitOn: "OrderMetaId")
                         .Distinct()
                         .ToList();
 
                     return result;
-                   
                 }
             }
         }
+
         public static Order GetById(string id, Utility.FillStyle fillStyle = Utility.FillStyle.Basic)
         {
             using (IDbConnection db = new SQLiteConnection(Utility.ConnString))
@@ -166,7 +186,7 @@ namespace AsianPublisher.Models
                         id = idPrefix + numId;
                         //tokenId = Utility.Tok_id;
                         string extension = "";
-                        string sql = "INSERT INTO Orders (id, numId, idPrefix, name, email, address,docketDate,docketNo,courierName, city, state,isDispatch, country, pincode, mobileNo,date,time,tokenId,merchId,status,userId) VALUES (@id, @numId, @idPrefix, @name, @email, @address,@docketDate,@docketNo,@courierName, @city, @state,@isDispatch, @country, @pincode, @mobileNo,@date,@time,@tokenId,@merchId,@status,@userId)";
+                        string sql = "INSERT INTO Orders (id, numId, idPrefix, name, email, address,docketDate,docketNo,courierName, city, state,isDispatch, country, pincode, mobileNo,date,time,tokenId,merchId,status,userId) VALUES (@id, @numId, @idPrefix, @name, @email, @address,@docketDate,@docketNo,@courierName, @city, @state,0, @country, @pincode, @mobileNo,@date,@time,@tokenId,@merchId,@status,@userId)";
                         int affectedRows = db.Execute(sql, this, transaction);
                         transaction.Commit();
                         return true;
@@ -211,10 +231,8 @@ namespace AsianPublisher.Models
                 {
                     try
                     {
-                        string sqln = "DELETE FROM OrderMetas WHERE orderId = @id;";
-                        int affectedRowsn = db.Execute(sqln, new { orderId = this.id }, transaction);
-                        string sql = "DELETE FROM Orders WHERE id = @id;";
-                        int affectedRows = db.Execute(sql, new { id = this.id }, transaction);
+                        int affectedRowsOrderMetas = db.Execute("DELETE FROM OrderMetas WHERE orderId = @orderId", new { orderId = this.id }, transaction);
+                        int affectedRowsOrders = db.Execute("DELETE FROM Orders WHERE id = @id", new { id = this.id }, transaction);
                         transaction.Commit();
                         return "true";
                     }

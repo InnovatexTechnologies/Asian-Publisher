@@ -4,65 +4,116 @@
     ViewData["Title"] = "Index";
     string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
 }
-
-<form method="post" action="~/OrderMeta/Index">
-    <div class="row">
-        <div class="col-3">
-            <label class="control-label">Order</label>
-            <select name="orderId" id="orderId" class="form-control">
-                <option value="">--Select--</option>
-                @foreach (var obj in ViewBag.Orders)
-                {
-                    if (ViewBag.orderId != null && ViewBag.orderId == obj.id)
+<div class="col-lg-2" style="float:left;">
+    <h4>Course List</h4>
+</div>
+<div class="col-lg-7" style="float:left;">
+    <form method="post" action="~/OrderMeta/Index">
+        <div class="row">
+            <div class="col-lg-3">
+                <label class="control-label">Order</label>
+                <select name="orderId" id="orderId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.Orders)
                     {
-                        <option value="@obj.id" selected>@obj.name</option>
+                        if (ViewBag.orderId != null && ViewBag.orderId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
                     }
-                    else
+                </select>
+            </div>
+            <div class="col-lg-3">
+                <label class="control-label">Book</label>
+                <select name="bookId" id="bookId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.Books)
                     {
-                        <option value="@obj.id">@obj.name</option>
+                        if (ViewBag.bookId != null && ViewBag.bookId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
                     }
-                }
-            </select>
+                </select>
+            </div>
+            <div class="col-lg-3" style="padding-top:32px;"><button class="btn-sm btn-info" type="submit">Submit</button></div>
         </div>
-        <div class="col-3">
-            <label class="control-label">BookId</label>
-            <select name="bookId" id="bookId" class="form-control">
-                <option value="">--Select--</option>
-                @foreach (var obj in ViewBag.Books)
-                {
-                    if (ViewBag.bookId != null && ViewBag.bookId == obj.id)
-                    {
-                        <option value="@obj.id" selected>@obj.name</option>
-                    }
-                    else
-                    {
-                        <option value="@obj.id">@obj.name</option>
-                    }
-                }
-            </select>
-        </div>
-        <div class="col-3"><button class="btn btn-info" type="submit">Submit</button></div>
-    </div>
-</form>
-<h1>Index</h1>
-
-<p>
-    <a href="~/OrderMeta/Create?url=@myurl" class="btn btn-success">Create New</a>
-<div>
-<a href = "/OrderMeta/GenerateExcel?orderId=@ViewBag.orderId&bookId=@ViewBag.bookId" class="btn btn-primary">DOWNLOAD EXCEL</a>
-<span style = "margin-right: 20px;" ></ span >
-<a href= "/OrderMeta/GeneratePdf?orderId=@ViewBag.orderId&bookId=@ViewBag.bookId" class="btn btn-secondary">DOWNLOAD PDF</a>
+    </form>
+</div>
+<div class="col-lg-3" style="float:left; padding-top:32px;">
+    <a href="~/OrderMeta/Create?url=@myurl" class="btn-sm btn-success">Create New</a>
+    <a href="/OrderMeta/GenerateExcel?orderId=@ViewBag.orderId&bookId=@ViewBag.bookId" class="btn-sm btn-primary">Excel</a>
+    <a href="/OrderMeta/GeneratePdf?orderId=@ViewBag.orderId&bookId=@ViewBag.bookId" class="btn-sm btn-secondary">PDF</a>
 </div>
 <br />
-</p>
-<table class="table">
+<br />
+<br />
+<br />
+<div class="container">
+    <table class="table table-bordered">
+        <tr>
+            <td style="background-color:#ddd;">Name</td>
+            <td>@ViewBag.name</td>
+            <td style="background-color:#ddd;">Email</td>
+            <td>@ViewBag.email</td>
+            <td style="background-color:#ddd;">Address</>
+            <td>@ViewBag.address</td>
+        </tr>
+        <tr>
+            <td style="background-color:#ddd;">Date</td>
+            <td>@ViewBag.date</td>
+
+            <td style="background-color:#ddd;">Status</td>
+            <td>
+                @if (ViewBag.status == 0)
+                {
+                    <span>Unpaid</span>
+                }
+                else if (ViewBag.status == 1)
+                {
+                    <span>Paid</span>
+                }
+                else
+                {
+                    <span>Pending</span>
+                }
+            </td>
+
+            <td style="background-color:#ddd;">Is Dispatch</td>
+            <td>
+                @if (ViewBag.isDispatch == 0)
+                {
+                    <span>Order Placed</span>
+                }
+                else if (ViewBag.isDispatch == 1)
+                {
+                    <span>Dispatched</span>
+                }
+                else
+                {
+                    <span>Cancelled</span>
+                }
+            </td>
+        </tr>
+    </table>
+</div>
+<br />
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
-                Order
+                Book
             </th>
             <th>
-                BookId
+                Language
             </th>
             <th>
                 Quantity
@@ -70,39 +121,46 @@
             <th>
                 Price
             </th>
-            <th></th>
+            <th>
+                Amount
+            </th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @item.orderNav?.name
-            </td>
-            <td>
-                @item.bookNav?.name
-            </td>
-            <td>
-                @item.quantity
-            </td>
-            <td>
-                @item.price
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id , url = myurl}) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.id , url = myurl })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.BookName
+                </td>
+                <td>
+                    @item.LanguageName
+                </td>
+                <td>
+                    @item.quantity
+                </td>
+                <td>
+                    @item.price
+                </td>
+                <th>
+                    @(item.quantity * item.price)
+                </th>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id, url = myurl }, new { @class = "btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl }, new { @class = "btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
-<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
-<script type = "text / javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" ></script >
-<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script >
-<script type = "text / javascript" src = "https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js" ></script>
-<script type = "text / javascript">
-$(function() {
-$("#orderId").select2(); 
-$("#bookId").select2(); 
-});
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<script type="text / javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text / javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script type="text / javascript">
+    $(function() {
+    $("#orderId").select2();
+    $("#bookId").select2();
+    });
 </script>

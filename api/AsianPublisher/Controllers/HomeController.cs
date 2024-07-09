@@ -1,6 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using AsianPublisher.Models;
+using System.Data.SQLite;
+using System.Data;
+using Dapper;
 
 namespace AsianPublisher.Controllers;
 
@@ -12,10 +15,23 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+    [HttpGet]
     public IActionResult Index()
     {
-        return View();
+        try
+        {
+            using (IDbConnection db = new SQLiteConnection(Utility.ConnString))
+            {
+
+                List<Order> records = db.Query<Order>("SELECT Orders.*, SUM(OrderMetas.price * OrderMetas.quantity) AS TotalAmount FROM Orders LEFT JOIN OrderMetas ON Orders.id = OrderMetas.orderId where isDispatch == 0 and status == 1 GROUP BY Orders.id").ToList();
+                return View(records);
+            }
+        }
+        catch (Exception ex)
+        {
+            // Log the exception or handle it as needed
+            return StatusCode(500, "An error occurred while retrieving data from the database.");
+        }
     }
 
     public IActionResult Privacy()

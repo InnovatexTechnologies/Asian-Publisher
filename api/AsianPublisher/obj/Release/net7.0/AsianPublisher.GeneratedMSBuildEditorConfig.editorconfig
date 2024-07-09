@@ -9,323 +9,327 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AsianPublisher
 build_property.RootNamespace = AsianPublisher
-build_property.ProjectDir = D:\TeamA\Akshi\AsianPublisher\AsianPublisher\
+build_property.ProjectDir = D:\InnovateXProjects\asian-publisher-new-master\api\AsianPublisher\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\TeamA\Akshi\AsianPublisher\AsianPublisher
+build_property.MSBuildProjectDirectory = D:\InnovateXProjects\asian-publisher-new-master\api\AsianPublisher
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/AcademicYear/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/AcademicYear/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNZZWFyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/AcademicYear/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/AcademicYear/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNZZWFyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/AcademicYear/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/AcademicYear/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNZZWFyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/AcademicYear/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/AcademicYear/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNZZWFyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Author/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Author/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Author/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Author/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Author/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Author/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Author/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Author/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/BecomeAuthor/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/BecomeAuthor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVjb21lQXV0aG9yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/BecomeAuthor/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/BecomeAuthor/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVjb21lQXV0aG9yXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/BecomeAuthor/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/BecomeAuthor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVjb21lQXV0aG9yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/BecomeAuthor/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/BecomeAuthor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVjb21lQXV0aG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/BookAuthor/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/BookAuthor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0F1dGhvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/BookAuthor/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/BookAuthor/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0F1dGhvclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/BookAuthor/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/BookAuthor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0F1dGhvclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/BookAuthor/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/BookAuthor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0F1dGhvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Book/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Book/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Book/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Book/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Catalogue/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Catalogue/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ3VlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Catalogue/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Catalogue/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ3VlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Catalogue/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Catalogue/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ3VlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Catalogue/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Catalogue/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ3VlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Contact/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Contact/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Contact/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Contact/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Contact/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Contact/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Contact/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/CouponCode/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/CouponCode/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uQ29kZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/CouponCode/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/CouponCode/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uQ29kZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/CouponCode/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/CouponCode/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uQ29kZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/CouponCode/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/CouponCode/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uQ29kZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Course/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Course/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Course/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Course/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Course/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Course/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Course/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/GateWay/Request.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/DispatchDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGF0Y2hEZXRhaWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/GateWay/Request.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0ZVdheVxSZXF1ZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/GateWay/Response.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/GateWay/Response.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0ZVdheVxSZXNwb25zZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Home/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Home/Privacy.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Language/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Language/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Language/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Language/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Language/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Language/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Language/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Language/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/LoginUser/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/LoginUser/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Vc2VyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/LoginUser/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/LoginUser/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Vc2VyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/LoginUser/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/LoginUser/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Vc2VyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/LoginUser/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/LoginUser/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Vc2VyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Login/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/OrderForm/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/OrderForm/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/OrderForm/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/OrderForm/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/OrderForm/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/OrderForm/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/OrderForm/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/OrderForm/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJGb3JtXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/OrderMeta/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/OrderMeta/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJNZXRhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/OrderMeta/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/OrderMeta/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJNZXRhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/OrderMeta/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/OrderMeta/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJNZXRhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/OrderMeta/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/OrderMeta/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJNZXRhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Order/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Order/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Order/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Order/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Order/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Order/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/SemesterCategory/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/SemesterCategory/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJDYXRlZ29yeVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/SemesterCategory/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/SemesterCategory/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJDYXRlZ29yeVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/SemesterCategory/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/SemesterCategory/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJDYXRlZ29yeVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/SemesterCategory/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/SemesterCategory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJDYXRlZ29yeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Semester/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Semester/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Semester/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Semester/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Semester/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Semester/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Semester/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Semester/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Shared/Error.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/User/Create.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/User/Delete.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/User/Edit.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/User/Index.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/_ViewImports.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/_ViewStart.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TeamA/Akshi/AsianPublisher/AsianPublisher/Views/Shared/_Layout.cshtml]
+[D:/InnovateXProjects/asian-publisher-new-master/api/AsianPublisher/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4zrkms2djl

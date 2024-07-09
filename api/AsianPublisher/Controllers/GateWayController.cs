@@ -17,6 +17,8 @@ using Dapper;
 using AsianPublisher.Models;
 using RestSharp;
 using System.Net.Mail;
+using System.Net.Mime;
+using DocumentFormat.OpenXml.Office2010.Excel;
 
 
 namespace AsianPublisher.Controllers
@@ -72,7 +74,7 @@ namespace AsianPublisher.Controllers
 
 
                         var client = new RestClient("https://public.doubletick.io/whatsapp/message/template");
-                        var request = new RestRequest("",Method.Post);
+                        var request = new RestRequest("", Method.Post);
                         request.AddHeader("Authorization", "key_8qXN4cMQ0G");
                         request.AddHeader("Content-Type", "application/json");
                         request.AddHeader("accept", "application/json");
@@ -81,14 +83,14 @@ namespace AsianPublisher.Controllers
                         RestResponse response = client.Execute(request);
 
                         client = new RestClient("https://public.doubletick.io/whatsapp/message/template");
-                        request = new RestRequest("",Method.Post);
+                        request = new RestRequest("", Method.Post);
                         request.AddHeader("Authorization", "key_8qXN4cMQ0G");
                         request.AddHeader("Content-Type", "application/json");
                         request.AddHeader("accept", "application/json");
                         body = $@"{{""messages"":[{{""to"":""+919873620572"",""content"":{{""templateName"":""order_canceled"",""language"":""en"",""templateData"":{{""body"":{{""placeholders"":[""Anirudh Agarwal"",""F34""]}}}}}}}}]}}";
                         request.AddParameter("application/json", body, ParameterType.RequestBody);
                         response = client.Execute(request);
-                        
+
 
 
                         MailMessage mailo = new MailMessage();
@@ -119,9 +121,16 @@ namespace AsianPublisher.Controllers
                         mail.Subject = "New Order Received - OrderId is " + objectres.payInstrument.merchDetails.merchTxnId;
                         mail.Body = "Dear Asian Publishers Team," + Environment.NewLine +
                             "Order " + objectres.payInstrument.merchDetails.merchTxnId + " has been received on your website. Please take action as needed." + Environment.NewLine +
-                             "Thank you.";// + Environment.NewLine +
-                        //"Warm Regards," + Environment.NewLine +
-                        //"Team Marwari Software";
+                             "Thank you.";
+
+                        string id = objectres.payInstrument.merchDetails.merchTxnId;
+                        byte[] pdfResult = Utility.OrderPdf(id);
+                        MemoryStream pdfStream = new MemoryStream(pdfResult);
+                        Attachment pdfAttachment = new Attachment(pdfStream, "order.pdf", MediaTypeNames.Application.Pdf);
+
+                        mail.Attachments.Add(pdfAttachment);
+
+
                         SmtpServer.Port = 587;
                         SmtpServer.DeliveryMethod = SmtpDeliveryMethod.Network;
                         SmtpServer.UseDefaultCredentials = false;

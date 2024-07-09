@@ -1,3 +1,11 @@
+using AsianPublisher.Models;
+using Dapper;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using Microsoft.AspNetCore.Mvc;
+using System.Data;
+using System.Data.SQLite;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -57,14 +65,14 @@ namespace AsianPublisher
         {
             return sa.CreateDecryptor().TransformFinalBlock(plainBytes, 0, plainBytes.Length);
         }
-        public static string GenerateRandomPassword(int length) 
+        public static string GenerateRandomPassword(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%=";
             var random = new Random();
             var passwordBuilder = new StringBuilder(length);
 
             for (int i = 0; i < length; i++)
-            {  
+            {
                 passwordBuilder.Append(chars[random.Next(chars.Length)]);
             }
             return passwordBuilder.ToString();
@@ -140,5 +148,139 @@ namespace AsianPublisher
 
             return new DateTime(DateTime.Now.Year, 1, 1, HH, MM, SS);
         }
+
+        public static byte[] OrderPdf(string id)
+        {
+            Order order;
+            List<OrderMeta> orderMetas;
+            using (IDbConnection db = new SQLiteConnection(Utility.ConnString))
+            {
+                order = db.Query<Order>("SELECT * FROM Orders WHERE Id = @Id", new { Id = id }).FirstOrDefault();
+                orderMetas = db.Query<OrderMeta>(
+                    @"SELECT OrderMetas.*, languages.name as languagename, books.Name as BookName 
+              FROM OrderMetas 
+              LEFT JOIN books ON books.id = OrderMetas.bookid 
+              LEFT JOIN languages ON books.languageid = languages.id 
+              WHERE OrderId = @Id", new { Id = id }).ToList();
+            }
+
+            iTextSharp.text.Font fonta = FontFactory.GetFont("Arial", 10, iTextSharp.text.Font.UNDEFINED, BaseColor.BLACK);
+            iTextSharp.text.Font fontb = FontFactory.GetFont("Arial", 18, iTextSharp.text.Font.BOLD, BaseColor.BLACK);
+            iTextSharp.text.Font fontc = FontFactory.GetFont("Arial", 10, iTextSharp.text.Font.BOLD, BaseColor.BLACK);
+            iTextSharp.text.Font fontd = FontFactory.GetFont("Arial", 12, iTextSharp.text.Font.BOLD, BaseColor.BLACK);
+
+            using (MemoryStream mmstream = new MemoryStream())
+            {
+                Document doc = new Document(PageSize.A4, -5, 0, 350, 0);
+                PdfWriter pdfWriter = PdfWriter.GetInstance(doc, mmstream);
+                doc.Open();
+
+                PdfContentByte cb = pdfWriter.DirectContent;
+
+                MarwariPdf.DrawText(cb, "bold", "", "37, 106, 152", 15, 1, "ASIAN PUBLISHER ORDER", 300, 790, 0);
+                MarwariPdf.DrawText(cb, "bold", "", "37, 106, 152", 13, 1, "Order Id : " + order.id, 300, 770, 0);
+
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Order Date : " + (order.dateNew ?? ""), 70, 730, 0);
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Customer Name : " + (order.name ?? ""), 70, 710, 0);
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Email : " + (order.email ?? ""), 70, 690, 0);
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Address : " + (order.address ?? ""), 70, 670, 0);
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "City : " + (order.city ?? ""), 70, 650, 0);
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Pincode : " + (order.pincode ?? ""), 70, 630, 0);
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Mobile No. : " + (order.mobileNo ?? ""), 70, 610, 0);
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Courier Name : " + (order.courierName ?? ""), 70, 590, 0);
+
+                if (order.docketDate != 0)
+                {
+                    MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Docket Date : " + order.docketDate.ToDate().ToString("dd-MMM-yyyy"), 70, 570, 0);
+                }
+                else
+                {
+                    MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Docket Date : ", 70, 570, 0);
+                }
+
+                MarwariPdf.DrawText(cb, "", "", "0,0,0", 12, 0, "Docket No : " + (order.docketNo ?? ""), 70, 550, 0);
+
+                PdfPTable table = new PdfPTable(6);
+                float[] widths = new float[] { .5f, 2f, .6f, .6f, .6f, .6f };
+                table.SetWidths(widths);
+                table.SpacingBefore = 10;
+                table.TotalWidth = 500;
+                table.LockedWidth = true;
+
+                PdfPCell cell;
+                cell = new PdfPCell(new Phrase("Sr.No", fontc));
+                cell.HorizontalAlignment = 1;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase("Book", fontc));
+                cell.HorizontalAlignment = 1;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase("Language", fontc));
+                cell.HorizontalAlignment = 1;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase("Quantity", fontc));
+                cell.HorizontalAlignment = 1;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase("Price", fontc));
+                cell.HorizontalAlignment = 2;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase("Amount", fontc));
+                cell.HorizontalAlignment = 2;
+                table.AddCell(cell);
+
+                int v = 1;
+                decimal grandTotal = 0;
+                foreach (OrderMeta orderMeta in orderMetas)
+                {
+                    cell = new PdfPCell(new Phrase(v.ToString(), fonta));
+                    cell.HorizontalAlignment = 1;
+                    table.AddCell(cell);
+                    cell = new PdfPCell(new Phrase(orderMeta.BookName ?? "", fonta));
+                    cell.HorizontalAlignment = 0;
+                    table.AddCell(cell);
+                    cell = new PdfPCell(new Phrase(orderMeta.LanguageName ?? "", fonta));
+                    cell.HorizontalAlignment = 1;
+                    table.AddCell(cell);
+                    cell = new PdfPCell(new Phrase(orderMeta.quantity.ToString(), fonta));
+                    cell.HorizontalAlignment = 1;
+                    table.AddCell(cell);
+                    cell = new PdfPCell(new Phrase(orderMeta.price.ToString(), fonta));
+                    cell.HorizontalAlignment = 2;
+                    table.AddCell(cell);
+
+                    decimal Amount = orderMeta.quantity * orderMeta.price;
+                    grandTotal += Amount;
+                    cell = new PdfPCell(new Phrase(Amount.ToString(), fonta));
+                    cell.HorizontalAlignment = 2;
+                    table.AddCell(cell);
+                    v++;
+                }
+
+                cell = new PdfPCell(new Phrase("", fontc));
+                cell.HorizontalAlignment = 1;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase("Total", fontc));
+                cell.HorizontalAlignment = 0;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase("Total", fontc));
+                cell.HorizontalAlignment = 0;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(orderMetas.Sum(o => o.quantity).ToString(), fontc));
+                cell.HorizontalAlignment = 1;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(orderMetas.Sum(o => o.price).ToString(), fontc));
+                cell.HorizontalAlignment = 2;
+                table.AddCell(cell);
+                cell = new PdfPCell(new Phrase(grandTotal.ToString(), fontc));
+                cell.HorizontalAlignment = 2;
+                table.AddCell(cell);
+
+                doc.Add(table);
+                doc.Close();
+                byte[] byteinfo = mmstream.ToArray();
+
+                return mmstream.ToArray();
+            }
+        }
+
     }
 }

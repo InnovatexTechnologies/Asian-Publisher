@@ -9,6 +9,7 @@ using System.Data;
 using System.Data.SQLite;
 using Dapper;
 using AsianPublisher.Models;
+using Microsoft.Extensions.Logging;
 
 namespace AsianPublisher.Controllers
 {
@@ -32,6 +33,14 @@ namespace AsianPublisher.Controllers
             try
             {
                 Dictionary<string, string> param = new Dictionary<string, string>();
+
+                // Default last 30 days date calculation
+                var currentDate = DateTime.Now.ToString("yyyyMMdd");
+                var past30DaysDate = DateTime.Now.AddDays(-30).ToString("yyyyMMdd");
+
+                param.Add("fromDate", past30DaysDate);
+                param.Add("toDate", currentDate);
+
                 List<Order> records = Order.Get(Utility.FillStyle.AllProperties, param).OrderBy(o => o.name).ToList();
                 return View(records);
             }
@@ -41,12 +50,45 @@ namespace AsianPublisher.Controllers
                 return StatusCode(500, "An error occurred while retrieving data from the database.");
             }
         }
-        // List
+
+
         [HttpPost]
-        public IActionResult Index(string id)
+        public IActionResult Index(string fromDate, string toDate, string status, string isDispatch)
         {
-            return RedirectToAction("Index");
+            try
+            {
+                Dictionary<string, string> param = new Dictionary<string, string>();
+
+                if (!string.IsNullOrEmpty(fromDate) && DateTime.TryParse(fromDate, out DateTime fromDt))
+                {
+                    param.Add("fromDate", fromDt.ToString("yyyyMMdd"));
+                }
+
+                if (!string.IsNullOrEmpty(toDate) && DateTime.TryParse(toDate, out DateTime toDt))
+                {
+                    param.Add("toDate", toDt.ToString("yyyyMMdd"));
+                }
+
+                if (!string.IsNullOrEmpty(status))
+                {
+                    param.Add("status", status);
+                }
+
+                if (!string.IsNullOrEmpty(isDispatch))
+                {
+                    param.Add("isDispatch", isDispatch);
+                }
+
+                List<Order> records = Order.Get(Utility.FillStyle.AllProperties, param).OrderBy(o => o.name).ToList();
+                return View(records);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it as needed
+                return StatusCode(500, "An error occurred while retrieving data from the database.");
+            }
         }
+
         // GET: Display form to create a new record
         [HttpGet]
         public IActionResult Create(string url)
@@ -65,7 +107,7 @@ namespace AsianPublisher.Controllers
         }
         // POST: Create a new record
         [HttpPost]
-        public IActionResult Create(Order model, string url,string docketDate)
+        public IActionResult Create(Order model, string url, string docketDate)
         {
             if (model.Save(docketDate))
             {
@@ -90,7 +132,7 @@ namespace AsianPublisher.Controllers
         }
         // POST: Create a new record
         [HttpPost]
-        public IActionResult Edit(Order model, string url,string docketDate)
+        public IActionResult Edit(Order model, string url, string docketDate)
         {
             if (model.Update(docketDate))
             {
@@ -119,7 +161,7 @@ namespace AsianPublisher.Controllers
             string result = model.Delete();
             if (result == "true")
             {
-                return Redirect(url);
+                return RedirectToAction("Index", "Order");
             }
             else
             {
@@ -127,6 +169,21 @@ namespace AsianPublisher.Controllers
                 return View(model);
             }
         }
+
+        [HttpGet]
+        public IActionResult OrderPdf(string id)
+        {
+            try
+            {
+                byte[] pdfBytes = Utility.OrderPdf(id);
+                return File(pdfBytes, "application/pdf", "Order.pdf");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Internal server error: " + ex.Message);
+            }
+        }
+
         public FileContentResult GenerateExcel(string id)
         {
             Dictionary<string, string> param = new Dictionary<string, string>();

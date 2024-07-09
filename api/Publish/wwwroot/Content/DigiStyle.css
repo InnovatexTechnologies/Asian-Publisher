@@ -1,0 +1,926 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row:before, .row:after {
+    display: none !important;
+}
+/*Milti Level menu for desktop, we also added ss at the top*/
+
+.DashboardBackground {
+    background-image: url(/Images/KP.png);
+    background-size: cover;
+    background-position: center;
+    height: 83vh;
+    background-attachment: fixed
+}
+
+.Dashbgheight {
+    height: 83vh
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu .dropdown-toggle:after {
+        border-top: .3em solid transparent;
+        border-right: 0;
+        border-bottom: .3em solid transparent;
+        border-left: .3em solid;
+    }
+
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .dropdown-menu li {
+        position: relative;
+    }
+
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+
+    .dropdown-menu > li:hover {
+        background-color: #f1f1f1
+    }
+
+        .dropdown-menu > li:hover > .submenu {
+            display: block;
+        }
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+.addimage {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: .3s;
+}
+
+    .addimage:hover {
+        transform: rotate(90deg);
+    }
+
+.ProductBg {
+    background-image: url(/Images/productbg.jpg);
+    background-attachment: fixed;
+    height: 40vh;
+    background-size: cover;
+    background-position: top;
+    padding: 50px;
+}
+
+.ProductBgd {
+    background-image: url(/Images/KP.png);
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.CartBg {
+    background-image: url(/Images/Cart_Bg.png);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.che #checkoutcol {
+    padding: 10px 100px 10px 100px;
+}
+
+#checkoutcalculationcol {
+    padding: 0px 30px
+}
+
+.AllOrderPadding {
+    padding: 10px 100px 10px 100px;
+}
+
+@media screen and (max-width: 990px) {
+    .AllOrderPadding {
+        padding: 10px;
+    }
+
+    .Dashbgheight {
+        height: 0vh
+    }
+
+    .DashboardBackground {
+        background-image: url(/Images/KP.png);
+        background-size: contain;
+        background-position: center;
+        height: 0vh;
+        background-attachment: fixed;
+    }
+
+    .CartBg {
+        background-image: url(/Images/Cart_Bg.png);
+        height: 20vh;
+        background-size: cover;
+        background-position: right;
+        padding: 30px;
+    }
+
+    .che #checkoutcol {
+        padding: 10px 10px 10px 10px;
+    }
+
+    #checkoutcalculationcol {
+        padding-left: 0px;
+        padding: 2px 40px;
+    }
+}
+
+.ProductName {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black
+}
+
+    .ProductName:hover {
+        text-decoration: none;
+        color: #00BCD4;
+    }
+
+.ProductListPrice {
+    text-align: center;
+    font-size: 16px;
+    color: #00BCD4;
+    font-weight: 500;
+    margin-top: -5px
+}
+
+@media screen and (max-width: 990px) {
+    .ProductName {
+        padding-top: 7px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black
+    }
+
+    .ProductListPrice {
+        text-align: center;
+        font-size: 20px;
+        color: #00BCD4;
+        font-weight: 500;
+        margin-top: -5px;
+        padding-bottom: 8px
+    }
+}
+/*form image change*/
+.hoverchange {
+    position: relative;
+    min-height: 30rem;
+    max-height: 30rem;
+}
+
+.prductcardheight {
+    margin: 10px 0px 10px 0px
+}
+
+@media screen and (max-width: 990px) {
+    .prductcardheight {
+        margin: 50px 0px 40px 0px
+    }
+
+    .hoverchange {
+        position: relative;
+        min-height: 37rem;
+        max-height: 37rem;
+    }
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    background-color: white;
+}
+
+#ProductCard:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+#ProductCard:hover #productcontent {
+    background-color: #F4F6F7;
+}
+
+#productcontent {
+    background-color: white;
+    border-top: 1px solid #ECECEC;
+    z-index: 5;
+    padding: 0px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.hoverimg {
+    height: 30rem;
+}
+
+#ProductCard:hover #foo {
+    background-color: #11202C;
+    color: white;
+}
+
+#ProductCard:hover #foo {
+    color: white;
+}
+
+#foo {
+    background-color: #ECECEC;
+    cursor: pointer;
+    color: gray;
+}
+
+    #foo:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+#about .aboutusheading {
+    padding-left: 70px
+}
+
+.homeklbg {
+    height: 80vh;
+    background-image: url(/Images/KP.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover
+}
+
+.praductcardheight {
+    width: 35rem;
+    height: 41rem
+}
+
+@media screen and (max-width: 990px) {
+    #foo {
+        background-color: #11202C;
+        color: white;
+    }
+
+    #about .aboutusheading {
+        padding: 30px;
+    }
+
+    .homeklbg {
+        height: 30vh;
+        background-image: url(/Images/KP.png);
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .praductcardheight {
+        width: 35rem;
+        height: 44rem
+    }
+}
+
+/*form toggle btn*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: #212331;
+}
+
+.fa-linkedin {
+    background: white;
+    color: #212331;
+}
+
+.fa-youtube {
+    background: white;
+    color: #212331;
+}
+
+.fa-instagram {
+    background: white;
+    color: #212331;
+}
+
+.stripheadng {
+    background-color: rgba(255, 255, 255, 0.707);
+    padding: 17px;
+    font-size: 20px;
+    color: #11202C;
+}
+
+.Strip:hover .stripheadng {
+    background-color: #FAA22A;
+    padding: 13px;
+    color: white
+}
+
+/*form  + -*/
+
+
+.input-number-group {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+    .input-number-group input[type=number]::-webkit-inner-spin-button,
+    .input-number-group input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+
+
+    .input-number-group .input-number {
+        width: 80px;
+        padding: 0 5px;
+        vertical-align: top;
+        text-align: center;
+        outline: none;
+        display: block;
+        margin: 0;
+    }
+
+    .input-number-group .input-number,
+    .input-number-group .input-number-decrement,
+    .input-number-group .input-number-increment {
+        border: 1px solid #cacaca;
+        height: 30px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border-radius: 0;
+    }
+
+    .input-number-group .input-number-decrement,
+    .input-number-group .input-number-increment {
+        display: inline-block;
+        width: 40px;
+        background: #e6e6e6;
+        color: #0a0a0a;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+/*.input-number-group .input-number-decrement {
+  margin-right: 0.3rem;
+}
+
+.input-number-group .input-number-increment {
+  margin-left: 0.3rem;
+}
+*/
+
+.productgallerysection {
+    width: 8vw
+}
+
+.fab {
+    font-size: 33px;
+    margin-right: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+    .fab:hover {
+        color: lightgray;
+        cursor: pointer;
+    }
+
+@media screen and (max-width: 990px) {
+    .HideInPhone {
+        display: none;
+    }
+
+    .w3-row-padding .productgallerysection {
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .HideInDesktop {
+        display: none;
+    }
+}
+
+.featuresheading {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+    font-size: 40px
+}
+
+.featurebox {
+    margin-bottom: 20px;
+    font-size: 40px
+}
+
+@media screen and (max-width: 990px) {
+    .featuresheading {
+        font-family: 'Noto Sans JP', sans-serif;
+        margin: 0px;
+        font-size: 30px
+    }
+
+    .featurebox {
+        margin-bottom: 20px;
+        font-size: 30px
+    }
+}
+
+
+/* Nav bar for mobile starts */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: black;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+#main {
+    transition: .5s;
+    overflow-x: hidden;
+    box-shadow: -2px -2px 2px black;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+/* Nav bar for mobile Ends */
+
+.RenderBodyclass {
+    padding-top: 17vh;
+    overflow-x: hidden
+}
+
+@media screen and (max-width: 990px) {
+    .RenderBodyclass {
+        padding-top: 9vh;
+        overflow-x: hidden
+    }
+}
+
+
+.nav-item {
+    padding-right: 18px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.topfixedbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.singleproductgallery {
+    width: 8vw
+}
+
+@media screen and (max-width: 990px) {
+    .singleproductgallery {
+        width: 100vw
+    }
+}
+
+.loginbanner #logincontent {
+    padding: 20px;
+    background-color: rgba(239, 239, 239, 0.61);
+    margin: 10vh 18vh;
+    border-radius: 10px
+}
+
+.loginheading {
+    font-size: 50px;
+    margin: -2vh 0 4vh 0;
+    text-shadow: 1px 1px orange
+}
+
+@media screen and (max-width: 990px) {
+    .loginbanner #logincontent {
+        background-color: rgba(239, 239, 239, 0.61);
+        padding: 20px;
+        margin: 6vh 2vh;
+        border-radius: 10px
+    }
+
+    .loginheading {
+        font-size: 37px;
+    }
+}
+
+
+.signupcontent {
+    padding: 20px;
+    background-color: rgba(239, 239, 239, 0.61);
+    margin: 10vh 18vh;
+    border-radius: 10px
+}
+
+@media screen and (max-width: 990px) {
+    .signupcontent {
+        padding: 20px;
+        background-color: rgba(239, 239, 239, 0.61);
+        margin: 6vh 2vh;
+        border-radius: 10px
+    }
+  
+}
+
+
+
+
+
+/* ++++++++++++++++++++++++++++ DASHBOARD STARTS ++++++++++++++++++++++++++ */
+
+.dbsection {
+    background-image: url('/Images/dashboardbg.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-color: #252525;
+    background-position-y: -30px;
+}
+
+.dashboardprofile {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.profileimage img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+.profilecontent h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.profilecontent p {
+    font-size: 25px;
+}
+
+.editprofile button {
+    background-color: #F2A900;
+    color: aliceblue;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    transition: .5s;
+}
+
+    .editprofile button:hover {
+        transform: translateY(-5px);
+        color: white;
+    }
+
+@media only screen and (max-width: 769px) {
+    .profilecontent h1 {
+        font-size: 35px;
+        font-weight: bolder;
+    }
+
+    .profilecontent p {
+        font-size: 19px;
+    }
+}
+/* <!-- =======================================min box starts =============================== --> */
+
+.elementdiv {
+    background-color: white;
+}
+
+/*.card {
+    background-color: white;
+    border: none;
+    align-items: center;
+}*/
+
+.dbinnerbox {
+    height: 140px;
+    width: 100%;
+    background-color: #212331;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+    .dbinnerbox:hover {
+        transform: translateY(-5px);
+        box-shadow: 2px 2px 2px 2px #F2A900;
+        cursor: pointer;
+    }
+
+    .dbinnerbox i {
+        color: white;
+        font-size: 35px;
+        padding: 15px 0px 3px 25px;
+    }
+
+.boxnumber {
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+/*.boxcontent {
+    font-size: 17px;
+    padding-left: 27px;
+}*/
+
+/* <!-- =======================================min box ends =============================== --> */
+/* <!-- ====================================== recently played starts =============================== --> */
+
+.rpdiv {
+    min-height: 70px;
+    height: auto;
+    width: 100%;
+    background-color: #212331;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    transition: .3s;
+}
+
+    .rpdiv:hover {
+        transform: translateY(-5px);
+        box-shadow: 2px 2px 2px 2px gray;
+        cursor: pointer;
+    }
+
+    .rpdiv i {
+        color: white;
+        font-size: 25px;
+        padding: 15px 0px 3px 25px;
+    }
+
+.rpcontent {
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+    .rpcontent {
+        font-size: 19px;
+    }
+}
+
+
+
+/* <!-- ====================================== recently played ends =============================== --> */
+
+/* ++++++++++++++++++++++++++++ DASHBOARD ENDS ++++++++++++++++++++++++++ */
+
+.Abouttophead {
+    font-weight: 1000;
+    font-size: 80px;
+    background-image: url('/Images/KP.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+@media screen and (max-width: 480px) {
+    .Abouttophead {
+        font-size: 50px;
+        line-height: 12vh;
+    }
+}
+
+.AbouttopSec {
+    background-color: #11202C;
+    width: 100%;
+    padding: 2px 0px;
+    text-align: center;
+    background-position: top;
+    background-size: cover;
+}
+
+.Certificatimg {
+    width: 16vw;
+}
+
+@media screen and (max-width: 990px) {
+    .Certificatimg {
+        width: 45vw;
+    }
+}
+/*-------------------------------*/
+
+
+

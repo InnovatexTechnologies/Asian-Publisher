@@ -4,19 +4,17 @@
     ViewData["Title"] = "Index";
     string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
 }
-
-<h1>Index</h1>
-
-<p>
-    <a href="~/Language/Create?url=@myurl" class="btn btn-success">Create New</a>
-<div>
-<a href = "/Language/GenerateExcel" class="btn btn-primary">DOWNLOAD EXCEL</a>
-<span style = "margin-right: 20px;" ></ span >
-<a href= "/Language/GeneratePdf" class="btn btn-secondary">DOWNLOAD PDF</a>
+<div class="col-lg-7" style="float:left;">
+    <h4>Language List</h4>
+</div>
+<div class="col-lg-5" style="float:left;">
+    <a href="~/Language/Create?url=@myurl" class="btn-sm btn-success">Create New</a>
+    <a href="/Language/GenerateExcel" class="btn-sm btn-primary">Excel</a>
+    <a href="/Language/GeneratePdf" class="btn-sm btn-secondary">PDF</a>
 </div>
 <br />
-</p>
-<table class="table">
+<br />
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
@@ -26,16 +24,17 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @item.name
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id , url = myurl}) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.id , url = myurl })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.name
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id, url = myurl }, new { @class = "btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl }, new { @class = "btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

@@ -3,85 +3,76 @@
 @{
     ViewData["Title"] = "Edit";
 }
-
-<h1>Edit</h1>
-
-<h4>Catalogue</h4>
+<h4>Edit Catalogue</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input hidden asp-for="id" class="form-control" />
-            <input hidden asp-for="numId" class="form-control" />
-            <input hidden asp-for="idPrefix" class="form-control" />
-            <div class="form-group">
-                <label class="control-label">Course</label>
-                <select name="courseId" id="courseId" class="form-control">
-                    <option value="">--Select--</option>
-                    @foreach (var obj in ViewBag.Courses)
+<form asp-action="Edit" enctype="multipart/form-data">
+    <div class="row">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input hidden asp-for="id" class="form-control" />
+        <input hidden asp-for="numId" class="form-control" />
+        <input hidden asp-for="idPrefix" class="form-control" />
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Course</label>
+            <select name="courseId" id="courseId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Courses)
+                {
+                    @if (Model.courseId == obj.id)
                     {
-                        @if (Model.courseId == obj.id)
-                        {
-                            <option value="@obj.id" selected>@obj.name</option>
-                        }
-                        else
-                        {
-                            <option value="@obj.id">@obj.name</option>
-                        }
+                        <option value="@obj.id" selected>@obj.name</option>
                     }
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Semester</label>
-                <select name="semesterId" id="semesterId" class="form-control">
-                    <option value="">--Select--</option>
-                    @foreach (var obj in ViewBag.Semesters)
+                    else
                     {
-                        @if (Model.semesterId == obj.id)
-                        {
-                            <option value="@obj.id" selected>@obj.name</option>
-                        }
-                        else
-                        {
-                            <option value="@obj.id">@obj.name</option>
-                        }
+                        <option value="@obj.id">@obj.name</option>
                     }
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Book</label>
-                <select name="bookId" id="bookId" class="form-control">
-                    <option value="">--Select--</option>
-                    @foreach (var obj in ViewBag.Books)
+                }
+            </select>
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Semester</label>
+            <select name="semesterId" id="semesterId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Semesters)
+                {
+                    @if (Model.semesterId == obj.id)
                     {
-                        @if (Model.bookId == obj.id)
-                        {
-                            <option value="@obj.id" selected>@obj.name</option>
-                        }
-                        else
-                        {
-                            <option value="@obj.id">@obj.name</option>
-                        }
+                        <option value="@obj.id" selected>@obj.name</option>
                     }
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Code</label>
-                <input name="code" id="code" value="@Model.code" class="form-control" />
-            </div>
-            <input name="url" hidden value="@ViewBag.url" />
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Book</label>
+            <select name="bookId" id="bookId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Books)
+                {
+                    @if (Model.bookId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Code</label>
+            <input name="code" id="code" value="@Model.code" class="form-control" />
+        </div>
+        <input name="url" hidden value="@ViewBag.url" />
+        <div class="col-lg-4" style="float:left; padding-top:32px;">
+            <input type="submit" value="Save" class="btn-sm btn-primary" />
+            <a href="@ViewBag.url" class="btn-sm btn-danger">Back to List</a>
+        </div>
     </div>
-</div>
-
-<div>
-    <a href="@ViewBag.url">Back to List</a>
-</div>
-
+</form>
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

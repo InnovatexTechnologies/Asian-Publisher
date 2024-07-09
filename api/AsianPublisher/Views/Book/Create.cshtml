@@ -3,89 +3,80 @@
 @{
     ViewData["Title"] = "Create";
 }
-
-<h1>Create</h1>
-
-<h4>Book</h4>
+<h4>Create Book</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label class="control-label">Name</label>
-                <input name="name" id="name" value="@Model.name" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label class="control-label">MRP</label>
-                <input name="mRP" id="mRP" value="@Model.mRP" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label class="control-label">BookCode</label>
-                <input name="bookCode" id="bookCode" value="@Model.bookCode" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label class="control-label">ISBN</label>
-                <input name="iSBN" id="iSBN" value="@Model.iSBN" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label class="control-label">Description</label>
-                <textarea name="description" id="description" class="form-control">@Model.description</textarea>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Language</label>
-                <select name="languageId" id="languageId" class="form-control">
-                    <option value="">--Select--</option>
-                    @foreach (var obj in ViewBag.Languages)
+<form asp-action="Create" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Name</label>
+            <input name="name" id="name" value="@Model.name" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">MRP</label>
+            <input name="mRP" id="mRP" value="@Model.mRP" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">BookCode</label>
+            <input name="bookCode" id="bookCode" value="@Model.bookCode" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">ISBN</label>
+            <input name="iSBN" id="iSBN" value="@Model.iSBN" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Description</label>
+            <textarea name="description" id="description" class="form-control">@Model.description</textarea>
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Language</label>
+            <select name="languageId" id="languageId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Languages)
+                {
+                    @if (Model.languageId == obj.id)
                     {
-                        @if (Model.languageId == obj.id)
-                        {
-                            <option value="@obj.id" selected>@obj.name</option>
-                        }
-                        else
-                        {
-                            <option value="@obj.id">@obj.name</option>
-                        }
+                        <option value="@obj.id" selected>@obj.name</option>
                     }
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="control-label">SamplePdf</label>
-                <input name="samplePdfFile" type="file" id="samplePdf" value="@Model.samplePdf" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label class="control-label">Image</label>
-                <input name="imageFile" type="file" id="image" value="@Model.image" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label class="control-label">Related Books</label>
-                <select name="relatedBooks" id="relatedBooks" class="form-control">
-                    <option value="">--Select--</option>
-                    @foreach (var obj in ViewBag.Books)
+                    else
                     {
-                        @if (Model.relatedBooks == obj.id)
-                        {
-                            <option value="@obj.id" selected>@obj.name</option>
-                        }
-                        else
-                        {
-                            <option value="@obj.id">@obj.name</option>
-                        }
+                        <option value="@obj.id">@obj.name</option>
                     }
-                </select>
-            </div>
-            <input name="url" hidden value="@ViewBag.url" />
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+                }
+            </select>
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">SamplePdf</label>
+            <input name="samplePdfFile" type="file" id="samplePdf" value="@Model.samplePdf" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Image</label>
+            <input name="imageFile" type="file" id="image" value="@Model.image" class="form-control" />
+        </div>
+        <div class="col-lg-4" style="float:left;">
+            <label class="control-label">Related Books</label>
+            <select name="relatedBooks" id="relatedBooks" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.Books)
+                {
+                    @if (Model.relatedBooks == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <input name="url" hidden value="@ViewBag.url" />
+        <div class="col-lg-4" style="float:left; padding-top:32px;">
+            <input type="submit" value="Create" class="btn-sm btn-primary" />
+            <a href="@ViewBag.url" class="btn-sm btn-danger">Back to List</a>
+        </div>
     </div>
-</div>
-
-<div>
-    <a href="@ViewBag.url">Back to List</a>
-</div>
-
+</form>
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

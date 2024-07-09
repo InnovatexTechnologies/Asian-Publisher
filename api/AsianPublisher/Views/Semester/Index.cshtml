@@ -4,58 +4,59 @@
     ViewData["Title"] = "Index";
     string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
 }
-
-<form method="post" action="~/Semester/Index">
-    <div class="row">
-        <div class="col-3">
-            <label class="control-label">Academic Year</label>
-            <select name="academicId" id="academicId" class="form-control">
-                <option value="">--Select--</option>
-                @foreach (var obj in ViewBag.AcademicYears)
-                {
-                    if (ViewBag.academicId != null && ViewBag.academicId == obj.id)
+<div class="col-lg-2" style="float:left;">
+    <h4>Semester List</h4>
+</div>
+<div class="col-lg-7" style="float:left;">
+    <form method="post" action="~/Semester/Index">
+        <div class="row">
+            <div class="col-lg-5">
+                <label class="control-label">Academic Year</label>
+                <select name="academicId" id="academicId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.AcademicYears)
                     {
-                        <option value="@obj.id" selected>@obj.name</option>
+                        if (ViewBag.academicId != null && ViewBag.academicId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
                     }
-                    else
+                </select>
+            </div>
+            <div class="col-lg-5">
+                <label class="control-label">Semester Category</label>
+                <select name="semesterId" id="semesterId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.SemesterCategories)
                     {
-                        <option value="@obj.id">@obj.name</option>
+                        if (ViewBag.semesterId != null && ViewBag.semesterId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
                     }
-                }
-            </select>
+                </select>
+            </div>
+            <div class="col-lg-2" style="padding-top:32px;"><button class="btn-sm btn-info" type="submit">Submit</button></div>
         </div>
-        <div class="col-3">
-            <label class="control-label">Semester Category</label>
-            <select name="semesterId" id="semesterId" class="form-control">
-                <option value="">--Select--</option>
-                @foreach (var obj in ViewBag.SemesterCategories)
-                {
-                    if (ViewBag.semesterId != null && ViewBag.semesterId == obj.id)
-                    {
-                        <option value="@obj.id" selected>@obj.name</option>
-                    }
-                    else
-                    {
-                        <option value="@obj.id">@obj.name</option>
-                    }
-                }
-            </select>
-        </div>
-        <div class="col-3"><button class="btn btn-info" type="submit">Submit</button></div>
-    </div>
-</form>
-<h1>Index</h1>
-
-<p>
-    <a href="~/Semester/Create?url=@myurl" class="btn btn-success">Create New</a>
-<div>
-<a href = "/Semester/GenerateExcel?academicId=@ViewBag.academicId&semesterId=@ViewBag.semesterId" class="btn btn-primary">DOWNLOAD EXCEL</a>
-<span style = "margin-right: 20px;" ></ span >
-<a href= "/Semester/GeneratePdf?academicId=@ViewBag.academicId&semesterId=@ViewBag.semesterId" class="btn btn-secondary">DOWNLOAD PDF</a>
+    </form>
+</div>
+<div class="col-lg-3" style="float:left; padding-top:32px;">
+    <a href="~/Semester/Create?url=@myurl" class="btn-sm btn-success">Create New</a>
+    <a href="/Semester/GenerateExcel?academicId=@ViewBag.academicId&semesterId=@ViewBag.semesterId" class="btn-sm btn-primary">Excel</a>
+    <a href="/Semester/GeneratePdf?academicId=@ViewBag.academicId&semesterId=@ViewBag.semesterId" class="btn-sm btn-secondary">PDF</a>
 </div>
 <br />
-</p>
-<table class="table">
+<br />
+<br />
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
@@ -70,30 +71,31 @@
             <th>
                 Semester Category
             </th>
-            <th></th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @item.name
-            </td>
-            <td>
-                @item.alias
-            </td>
-            <td>
-                @item.academicNav?.name
-            </td>
-            <td>
-                @item.semesterNav?.name
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id , url = myurl}) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.id , url = myurl })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.name
+                </td>
+                <td>
+                    @item.alias
+                </td>
+                <td>
+                    @item.academicNav?.name
+                </td>
+                <td>
+                    @item.semesterNav?.name
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id, url = myurl }, new { @class = "btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl }, new { @class = "btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />

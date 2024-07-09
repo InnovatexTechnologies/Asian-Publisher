@@ -276,7 +276,7 @@ namespace AsianPublisher.Controllers
                         model.merchId = Utility.merchId;
                         model.date = int.Parse(DateTime.Now.ToString("yyyyMMdd"));
                         model.time = int.Parse(DateTime.Now.ToString("HHmmssfff"));
-                        string sql = $"INSERT INTO Orders (id, numId, idPrefix, name, email, address,docketDate,docketNo,courierName, city,state,isDispatch, country, pincode, mobileNo,date,time,tokenId,merchId,status,userId) VALUES (@id, @numId, @idPrefix, @name, @email, @address,@docketDate,@docketNo,@courierName, @city,@state,@isDispatch, @country, @pincode, @mobileNo, @date,@time,@tokenId,@merchId,@status,@userId)";
+                        string sql = $"INSERT INTO Orders (id, numId, idPrefix, name, email, address,docketDate,docketNo,courierName, city,state,isDispatch, country, pincode, mobileNo,date,time,tokenId,merchId,status,userId) VALUES (@id, @numId, @idPrefix, @name, @email, @address,@docketDate,@docketNo,@courierName, @city,@state,0, @country, @pincode, @mobileNo, @date,@time,@tokenId,@merchId,@status,@userId)";
                         int affectedRows = db.Execute(sql, model, transaction);
 
                         int counter = 1;

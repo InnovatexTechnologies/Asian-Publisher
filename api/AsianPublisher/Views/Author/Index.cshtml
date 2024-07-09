@@ -1,23 +1,19 @@
 @model IEnumerable<AsianPublisher.Models.Author>
-
 @{
     ViewData["Title"] = "Index";
     string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
 }
-
-<h1>Index</h1>
-
-<p>
-    <a href="~/Author/Create?url=@myurl" class="btn btn-success">Create New</a>
-    <div>
-        <a href="/Author/GenerateExcel" class="btn btn-primary">DOWNLOAD EXCEL</a>
-        <span style="margin-right: 20px;">
-            </ span >
-            <a href="/Author/GeneratePdf" class="btn btn-secondary">DOWNLOAD PDF</a>
-    </div>
-    <br />
-</p>
-<table class="table">
+<div class="col-lg-7" style="float:left;">
+    <h4>Author List</h4>
+</div>
+<div class="col-lg-5" style="float:left;">
+    <a href="~/Author/Create?url=@myurl" class="btn-sm btn-success">Create New</a>
+    <a href="/Author/GenerateExcel" class="btn-sm btn-primary">Excel</a>
+    <a href="/Author/GeneratePdf" class="btn-sm btn-secondary">PDF</a>
+</div>
+<br />
+<br />
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
@@ -38,7 +34,7 @@
             <th>
             Content2
             </th> *@
-            <th></th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -64,8 +60,8 @@
             @item.content2
             </td> *@
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.id, url = myurl }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl })
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id, url = myurl }, new { @class = "btn-sm btn-success" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl }, new { @class = "btn-sm btn-danger" })
                 </td>
             </tr>
         }

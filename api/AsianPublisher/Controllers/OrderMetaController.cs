@@ -27,7 +27,7 @@ namespace AsianPublisher.Controllers
         }
         // List
         [HttpGet]
-        public IActionResult Index(string orderId, string bookId)
+        public IActionResult Index(string orderId, string bookId, string name, string email, string address, string date, int status, int isDispatch)
         {
             try
             {
@@ -43,10 +43,17 @@ namespace AsianPublisher.Controllers
                 ViewBag.Orders = Order.Get(Utility.FillStyle.Basic);
                 ViewBag.Books = Book.Get(Utility.FillStyle.Basic);
 
+                ViewBag.name = name;
+                ViewBag.email = email;
+                ViewBag.address = address;
+                ViewBag.date = date;
+                ViewBag.status = status;
+                ViewBag.isDispatch = isDispatch;
+
                 Dictionary<string, string> param = new Dictionary<string, string>();
                 param.Add("orderId", orderId);
                 param.Add("bookId", bookId);
-                List<OrderMeta> records = OrderMeta.Get(Utility.FillStyle.WithBasicNav, param).ToList();
+                List<OrderMeta> records = OrderMeta.Get(Utility.FillStyle.Custom, param).ToList();
                 return View(records);
             }
             catch (Exception ex)

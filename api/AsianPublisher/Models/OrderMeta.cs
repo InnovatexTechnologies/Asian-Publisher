@@ -1,6 +1,7 @@
 using System.Data.SQLite;
 using System.Data;
 using Dapper;
+using System.ComponentModel.DataAnnotations.Schema;
 
 
 namespace AsianPublisher.Models
@@ -16,6 +17,12 @@ namespace AsianPublisher.Models
         public Book? bookNav { get; set; }
         public decimal quantity { get; set; } = 0;
         public decimal price { get; set; } = 0;
+
+        [NotMapped]
+        public string LanguageId { get; set; } = "";
+        public string BookName { get; set; } = "";
+        public string BookLID { get; set; } = "";
+        public string LanguageName { get; set; } = "";
         // Additional methods
         public static List<OrderMeta> Get(Utility.FillStyle fillStyle = Utility.FillStyle.AllProperties, Dictionary<string, string>? paramList = null)
         {
@@ -54,12 +61,20 @@ namespace AsianPublisher.Models
                 } 
                 else if (fillStyle == Utility.FillStyle.WithBasicNav)
                 {
-                    query = "SELECT myBaseTable.*,Reff1.id, Reff1.name,Reff2.id, Reff2.name FROM OrderMetas myBaseTable left join Orders Reff1 on myBaseTable.orderId=Reff1.id left join Books Reff2 on myBaseTable.bookId=Reff2.id  where " + whereClause;
-                    return db.Query<OrderMeta, Order, Book, OrderMeta>(query,
-                    (myBaseTable, ref1, ref2) =>
+                    query = "SELECT myBaseTable.*, Reff1.id AS OrderId, Reff1.name AS OrderName, " +
+        "Reff2.id AS BookId,Reff2.languageid as BookLID , Reff2.name AS BookName, Reff3.name AS LanguageName, Reff3.id as LanguageId " +
+        "FROM OrderMetas myBaseTable " +
+        "LEFT JOIN Orders Reff1 ON myBaseTable.orderId = Reff1.id " +
+        "LEFT JOIN Books Reff2 ON myBaseTable.bookId = Reff2.id " +
+        "LEFT JOIN languages Reff3 ON Reff2.languageid = Reff3.id " +
+        "WHERE " + whereClause;
+
+                    return db.Query<OrderMeta, Order, Book, Language, OrderMeta>(query,
+                    (myBaseTable, ref1, ref2, ref3) =>
                     {
                         myBaseTable.orderNav = ref1;
                         myBaseTable.bookNav = ref2;
+                        myBaseTable.LanguageName = ref3.name;
                         return myBaseTable;
                     }, Utility.CreateDynamicObject(paramList)).ToList();
                 }
@@ -76,11 +91,18 @@ namespace AsianPublisher.Models
                 }
                 else
                 {
-                    query = "";
+                    query = "SELECT myBaseTable.*, Reff1.id AS OrderId, Reff1.name AS OrderName, " +
+        "Reff2.id AS BookId,Reff2.languageid as BookLID , Reff2.name AS BookName, Reff3.name AS LanguageName, Reff3.id as LanguageId " +
+        "FROM OrderMetas myBaseTable " +
+        "LEFT JOIN Orders Reff1 ON myBaseTable.orderId = Reff1.id " +
+        "LEFT JOIN Books Reff2 ON myBaseTable.bookId = Reff2.id " +
+        "LEFT JOIN languages Reff3 ON Reff2.languageid = Reff3.id " +
+        "WHERE " + whereClause;
                     return db.Query<OrderMeta>(query).ToList();
                 }
             }
         }
+        
         public static OrderMeta GetById(string id, Utility.FillStyle fillStyle = Utility.FillStyle.Basic)
         {
             using (IDbConnection db = new SQLiteConnection(Utility.ConnString))
